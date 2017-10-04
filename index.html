@@ -1,0 +1,859 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to ENVIS on Hazardous Wastes</title>
+<meta name="description" content="Response Premium Html Responsive Template" />
+<meta name="keywords" content="Responsive Html, Responsive Template, Response" />
+<link rel="shortcut icon" href="images/envis_favicon.gif" /> 
+<link rel="bookmark icon" href="images/envis_favicon.gif" /> 
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<meta name="apple-mobile-web-app-capable" content="yes" /> 
+<meta name="apple-mobile-web-app-status-bar-style" content="grey" /> 
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" /> 
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="js/twitter.js"></script>    
+<script src="js/custom.js"></script>   
+<script>
+	//// Start Simple Sliders ////
+	$(function() {
+		setInterval("rotateDiv()", 10000);
+		
+		setInterval("rotateDiv1()", 10000);
+		setInterval("rotateDiv2()", 10000);
+		setInterval("rotateDiv3()", 10000);
+		setInterval("rotateDiv4()", 10000);
+		setInterval("rotateDiv5()", 10000);
+	});
+		
+		function rotateDiv() {
+		var currentDiv=$("#simpleslider div.current");
+		var nextDiv= currentDiv.next ();
+		if (nextDiv.length ==0)
+			nextDiv=$("#simpleslider div:first");
+		
+		currentDiv.removeClass('current').addClass('previous').fadeOut('2000');
+		nextDiv.fadeIn('3000').addClass('current',function() {
+			currentDiv.fadeOut('2000', function () {currentDiv.removeClass('previous');});
+		});
+	}
+	
+	function rotateDiv1() {
+		var currentDiv1=$("#simpleslider1 div.current1");
+		var nextDiv1= currentDiv1.next ();
+		if (nextDiv1.length ==0)
+			nextDiv1=$("#simpleslider1 div:first");
+		
+		currentDiv1.removeClass('current1').addClass('previous').fadeOut('2000');
+		nextDiv1.fadeIn('3000').addClass('current1',function() {
+			currentDiv1.fadeOut('2000', function () {currentDiv1.removeClass('previous');});
+		});
+	}
+		function rotateDiv2() {
+		var currentDiv2=$("#simpleslider2 div.current2");
+		var nextDiv2= currentDiv2.next ();
+		if (nextDiv2.length ==0)
+			nextDiv2=$("#simpleslider2 div:first");
+		
+		currentDiv2.removeClass('current2').addClass('previous').fadeOut('2000');
+		nextDiv2.fadeIn('3000').addClass('current2',function() {
+			currentDiv2.fadeOut('2000', function () {currentDiv2.removeClass('previous');});
+		});
+	}
+		function rotateDiv3() {
+		var currentDiv3=$("#simpleslider3 div.current3");
+		var nextDiv3= currentDiv3.next ();
+		if (nextDiv3.length ==0)
+			nextDiv3=$("#simpleslider3 div:first");
+		
+		currentDiv3.removeClass('current3').addClass('previous').fadeOut('2000');
+		nextDiv3.fadeIn('3000').addClass('current3',function() {
+			currentDiv3.fadeOut('2000', function () {currentDiv3.removeClass('previous');});
+		});
+	}
+		function rotateDiv4() {
+		var currentDiv4=$("#simpleslider4 div.current4");
+		var nextDiv4= currentDiv4.next ();
+		if (nextDiv4.length ==0)
+			nextDiv4=$("#simpleslider4 div:first");
+		
+		currentDiv4.removeClass('current4').addClass('previous').fadeOut('2000');
+		nextDiv4.fadeIn('3000').addClass('current4',function() {
+			currentDiv4.fadeOut('2000', function () {currentDiv4.removeClass('previous');});
+		});
+	}
+		function rotateDiv5() {
+		var currentDiv5=$("#simpleslider5 div.current5");
+		var nextDiv5= currentDiv5.next ();
+		if (nextDiv5.length ==0)
+			nextDiv5=$("#simpleslider5 div:first");
+		
+		currentDiv5.removeClass('current5').addClass('previous').fadeOut('2000');
+		nextDiv5.fadeIn('3000').addClass('current5',function() {
+			currentDiv5.fadeOut('2000', function () {currentDiv5.removeClass('previous');});
+		});
+	}
+	//// End Simple Sliders //// 
+</script> 
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+  });
+</script>
+</head>
+
+<body>
+<div id="header">
+    	<!-- Start navigation area -->
+        <div id="navigation">
+
+        	<div id="navigation_wrap">
+
+                <!-- Start contact info area -->
+                <div id="conteactinfo"><strong>Email:</strong> neeri@envis.nic.in |  <strong>Phone:</strong> (+91) 712 224 9782</div>
+                <!-- End contact info area -->
+                <!-- Start navigation -->
+                <div id="navi">
+                
+                    <ul>
+                    
+                        <li><a href="index.html" title="Home">Home</a>
+                        	<ul>
+                                    	<li><a href="about_us.html" title="About ENVIS">About ENVIS</a></li>
+                                        
+                                        <li><a href="about_staff.html" title="About Staff">About Staff</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#" title="ENVIS Network">ENVIS Network</a>
+                        	<ul>
+                                    	<li><a href="envis_centers.html" title="ENVIS Centers">ENVIS Centers</a></li>
+                                        <li><a href="focal_point.html" title="Focal Point">Focal Point</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#" title="Enanctments">Enanctments</a>
+                        	<ul>
+                                    	
+                                        <li><a href="convections_treaties.html" title="Convections/Treaties">Convections/ Treaties</a></li>
+                                        <li><a href="rules_in_india.html" title="Rules in India">Rules in India</a></li>
+                                        <li><a href="rules_in_other_country.html" title="Rules in Other Country">Rules in Other Country</a></li>
+                                        <li><a href="policies.html" title="Policies">Policies</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#" title="Enanctments">Case Studies</a>
+                        	<ul>
+                                    	<li><a href="Scientific_studies.html" title="Scientific Studies">Scientific Studies</a></li>
+                                        <li><a href="policy_studies.html" title="Policy Studies">Policy Studies</a></li>
+                                        <li><a href="legal.html" title="Legal">Legal</a></li>
+                                        
+                             </ul>
+                        </li>
+                        
+                       <!-- <li><a href="gallery.html" title="Gallery">Gallery</a></li>-->
+                         <li><a href="technologies.html" title="Technologies">Technologies</a></li>
+                        <li><a href="contact-us.html" title="Contact Response">Contact Us</a></li>
+                    
+                    </ul>
+                
+                </div>
+                <!-- End navigation -->
+                
+			</div>
+        
+        </div>
+        <!-- End navigation area -->
+        <div class="clear"></div>
+        <!-- Start Social & Logo area -->
+        <div id="header_small">
+        	<!-- Start Social area -->
+        	<div class="social">
+            	
+                <div>
+                    <img src="images/csir_logo.png" />
+                    <img src="images/neeri_logo.png" />
+                </div>
+            </div>
+            <!-- End Socialarea -->
+            <div class="logo-txt">
+            	<h1>ENVIS on HAZARDOUS WASTES</h1>
+                <h2>CSIR - National Environmental Engineering Research Institute, Nehru Marg, Nagpur</h2>
+                <h3>Sponsored by Ministry of Environment, Forests & Climate Change, Govt of India</h3>
+            </div>
+            <!-- Start Logo area -->
+            <div id="logo">
+            	<div class="logo-new">
+            			<img src="images/envis_logo.png" />
+                </div>
+             
+            </div>
+            <!-- End Logo area -->
+        
+        </div>
+        <!-- End Social & Logo area -->
+
+</div>
+
+<div id="main">
+
+    <!-- Start Slider Wrapping -->
+    <div id="sliderwrap">
+		
+        <!-- Start Slider -->
+        <div id="slider" class="nivoSlider">
+            <img src="images/slider-banners/slider01.jpg" alt=""/>
+            <img src="images/slider-banners/slider02.jpg" alt=""/>
+            <img src="images/slider-banners/slider03.jpg" alt=""/>
+            <img src="images/slider-banners/slider04.jpg" alt=""/>
+            
+        </div>
+        <!-- End Slider -->
+        <!-- Start Slider HTML Captions -->
+        <div id="htmlcaption" class="nivo-html-caption">
+            <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+        </div>
+        <!-- End Slider HTML Captions -->
+    
+    </div>
+    <!-- End Slider Wrapping -->
+    <!-- Start H1 Title -->
+    <div class="titles">
+    
+    	<h1>Welcome to the Envis on Hazardous Wastes</h1>
+        
+        <span></span>
+    
+    </div>
+    <!-- End H1 Title -->
+    <!-- Start Main Body Wrap -->
+    <div id="main-wrap">
+    
+    	<!-- Start Featured Boxes -->
+        <div class="boxes-third boxes-first">
+        
+        	<div class="boxes-padding">
+            
+            	<div class="bti">
+                	<!--<div class="featured-images"><img src="images/responsive-icon.png" width="72" height="53" alt="Responsive"></div>-->
+                	<div class="featured-titles">Current News</div>
+                </div>
+                <div class="featured-text">
+                	<!-- Starting simple slider -->
+                        <div id="simpleslider1">
+                                <!-- Slide 1 -->
+                                <div class="current1">
+                                    <h3>Biologists identify genes that control toxic metal accumulation in plants</h3>
+                                    <p>Biologists at UC San Diego (UCSD) and four other institutions have identified a long-sought after family of genes that controls how yeast and plants accumulate toxic heavy metals and arsenic inside their cells. ...<img src="images/new-y.gif" width="22" height="12"><a class="read_more" href="current_news/news0019.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 1 -->
+                                <!-- Slide 2 -->
+                                <div>
+                                   <h3>Industrial waste monitoring to go online soon</h3>
+                                    <p>After launching online green clearance systems for industrial and infrastructure projects, Govt. of India is now keen to kick-start a similar system to strictly monitor treatment....<img src="images/new-y.gif" width="22" height="12"><a class="read_more" href="current_news/news0020.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 2 -->
+                                 <!-- Slide 3 -->
+                                <div>
+                                   <h3>Delhi to get dedicated space for hazardous waste disposal</h3>
+                                    <p>In a move that could aid reduction of risk to Delhi’s citizens, authorities have identified 14 acres of land for safe disposal of thousands of tonnes of hazardous waste that the city generates ....<img src="images/new-y.gif" width="22" height="12"><a class="read_more" href="current_news/news0021.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 3 -->
+                                 <!-- Slide 4 -->
+                                <div>
+                                   <h3>Mercury levels in Hawaiian yellowfin tuna increasing</h3>
+                                    <p>Mercury concentrations in Hawaiian yellowfin tuna are increasing at a rate of 3.8 percent or more per year, according to a new study that suggests rising atmospheric levels  ...<img src="images/new-y.gif" width="22" height="12"><a class="read_more" href="current_news/news0022.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 4-->
+                                <!-- Slide 5 -->
+                                <div>
+                                   <h3>Researchers develop new instrument to monitor atmospheric mercury</h3>
+                                    <p>A new instrument to monitor atmospheric mercury in the atmosphere has been developed and tested by scientists. The measurement approach is called sequential....<img src="images/new-y.gif" width="22" height="12"><a class="read_more" href="current_news/news0023.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 5-->
+                                <!-- Slide 5 -->
+                                <div>
+                                   <h3>Technology to recycle all type of plastics without using water</h3>
+                                    <p>Traditionally, plastic recycling processes involve using a lot of water. In order to avoid this waste, researchers have developed a new green technology that doesn't require liquids, ....<img src="images/new-y.gif" width="22" height="12"><a class="read_more" href="current_news/news0024.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 5-->
+                               
+                        </div>
+                    <!-- Ending simple slider -->
+                    	<div align="right"><a class="smallsmoothrectange greenbutton" href="current_news.html">View All</a></div>
+                </div>
+            
+            </div>
+            
+            <span class="box-arrow"></span>
+        
+        </div>
+        
+        <div class="boxes-third">
+        
+        	<div class="boxes-padding">
+            
+            	<div class="bti">
+                    <!--<div class="featured-images"><img src="images/cleansleek-icon.png" width="66" height="53" alt="Responsive"></div>-->
+                    <div class="featured-titles">Events</div>
+                </div>
+                <div class="featured-text">
+                	<!-- Starting simple slider -->
+                        <div id="simpleslider2">
+                        		<!-- Slide 1 -->
+                                <div class="current2">
+                                    <h3>ENVIS Regional Evaluation Workshop 2015 (Western Region)</h3>
+                                    <p>The next Regional Evaluation and Training Workshop for ENVIS Centres (located in
+Western Region) is scheduled to be held from 16th - 17th February, 2015 ...<img src="images/new-y.gif" width="22" height="12"><a class="read_more" href="upcomming_events.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 1 -->
+                                <!-- Slide 2 -->
+                                  <div>
+                                    <h3>ENVIS Regional Evaluation Workshop 2015 (Southern Region)</h3>
+                                    <p>The next Regional Evaluation and Training Workshop for ENVIS Centres (located in
+Southern Region) is scheduled to be held from 5th - 6th February, 2015 ...<a class="read_more" href="upcomming_events/upcomming_event0013.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 2 -->
+                                <!-- Slide 3 -->
+                                <!-- Slide 2 -->
+                                  <div>
+                                    <h3>ICMGP 2015: 12th International Conference on Mercury as a Global Pollutant</h3>
+                                    <p>The International Conference on Mercury as a Global Pollutant (ICMGP), held periodically for over 20 year since its inception in 1990....<a class="read_more" href="upcomming_events/upcomming_event0011.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 2 -->
+                                <!-- Slide 3 -->
+                                <div>
+                                   <h3>NSCI Trainig Programme on Hazardous Waste Management & Environment Protection</h3>
+                                    <p>Hazardous Waste(HW) is defined as any waste which by reason of any of its physical, chemical, reactive, toxic, flammable, explosive or corrosive...<a class="read_more" href="upcomming_events/upcomming_event0012.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 3 -->
+                                <!-- Slide 4 -->
+                                <div>
+                                   <h3>Course on Contaminated and Hazardous Waste. "Theory,Practice & Outdoor Field Demonstrations(June 8-12,2015)"</h3>
+                                    <p>GOwen Environmental and the International Association of Hydrogeologists is conducting a comprehensive course on contaminated and hazardous waste management on 8-12 June 2015......<a class="read_more" href="upcomming_events/upcomming_event0011.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 4 -->
+                               
+                        </div>
+                    <!-- Ending simple slider -->
+                    	<div align="right"><a class="smallsmoothrectange greenbutton" href="upcomming_events.html">View All</a></div>
+                </div>
+            </div>
+            
+            <span class="box-arrow"></span>
+        
+        </div>
+        
+        <div class="boxes-third boxes-last">
+        
+        	<div class="boxes-padding">
+            
+                <div class="bti">
+                    <!--<div class="featured-images"><img src="images/google-icon.png" width="54" height="53" alt="Responsive"></div>-->
+                    <div class="featured-titles">KIds Corner</div>
+                </div>
+                <div class="featured-text">
+                	<!-- Starting simple slider -->
+                        <div id="simpleslider3">
+                                
+                                <!-- Slide 2 -->
+                                <div class="current3">
+                                   <h3>How to Prevent  Lead Poisoning?</h3>
+                                    <p>Many homes built before 1978 have lead paint on the inside and outside. When the lead paint gets old, it starts peeling or coming off in pieces. That is called chipping. Can you find the chipping paint?..<img src="images/new-y.gif" width="22" height="12"><a class="read_more" href="kids_corner/kids_corner2.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 2 -->
+                                <!-- Slide 2 -->
+                                <div>
+                                   <h3>Possible health Effects</h3>
+                                    <p>Children are in very close contact with their toys and frequently put them into their mouth.Therefore, it is very likely that hazardous chemicals ...<img src="images/new-y.gif" width="22" height="12"><a class="read_more" href="kids_corner/kids_corner3.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 2 -->
+                                <!-- Slide 2 -->
+                                <div>
+                                   <h3>What is Hazardous Wastes?</h3>
+                                    <p>There are many types and classifications have changed over time. Several common groups include: Household Waste, Automotive Waste & Industry Waste....<img src="images/new-y.gif" width="22" height="12"><a class="read_more" href="kids_corner/kids_corner4.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 2 -->
+                               <!-- Slide 1 -->
+                                <div>
+                                    <h3>Lead Pencils </h3>
+                                    <p>Are Lead Pencils Harmful for Children?......<a class="read_more" href="kids_corner/kids_corner1.html">Read more</a></p>
+                                </div>
+                                <!-- End Slide 1 -->
+                        </div>
+                    <!-- Ending simple slider -->
+                    	<div align="right"><a class="smallsmoothrectange greenbutton" href="kids_corner.html">View All</a></div>
+                </div>
+            
+            </div>
+            
+            <span class="box-arrow"></span>
+        
+        </div>
+        <!-- End Featured Boxes -->
+        
+        <!--New-->
+        <!-- Start Featured Boxes -->
+        <div class="boxes-third boxes-first">
+        
+        	<div class="boxes-padding">
+            
+            	<div class="bti">
+                	<!--<div class="featured-images"><img src="images/responsive-icon.png" width="72" height="53" alt="Responsive"></div>-->
+                	<div class="featured-titles">Database</div>
+                </div>
+                <div class="featured-text">
+                	<ul>
+                    	<li><p><a class="read_more" title="R & D Database" href="r_and_d_database.html">R & D Database</a></p></li>
+                        <li><p><a class="read_more" title="R & D Abstracts" href="abstract_servicing.html">R & D Abstracts</a></p></li>
+                        <li><p><a class="read_more" title="Hazardous Waste Generation in India" href="hazardous_waste_gen_india.html">Hazardous Waste Generation in India</a></p></li>
+                        <li><p style="text-align:left;"><a class="read_more"  title="Treatment, Storage, Disposal Facilities(TSDF) in India" href="tsdf.html">Treatment, Storage, Disposal Facilities (TSDF) in India</a></p></li>
+                        <li>
+                          <p style="text-align:left;"><a class="read_more"   title="Treatment, Storage, Disposal Facilities(TSDF) in India" href="cetp.html">Common Effluent Treatment Plants (CEPTS) in India</a></p>
+                        </li>
+                        <li><p><a class="read_more" title="Health Impacts of Hazardous Wastes" href="health_impact.html">Health Impacts of Hazardous Wastes</a></p></li>
+                        <li><p><a class="read_more" title="Bioremediation for Hazardous Waste Management" href="bioremediation_hwm.html">Bioremediation for Hazardous Waste Management</a></p></li>
+                        <li>
+                          <p><a class="read_more" title="Database on Status of Technologies for Haradous Waste Management" target="_blank" href="pdf/database/database_on_status_of_technologies_for_hardous_waste_management11.pdf">Database on Status of Technologies for Hazardous Waste Management</a></p>
+                        </li>
+                        <li><p><a class="read_more" title="Use of Hazardous Wastes in Industries as a Raw Material" target="_blank" href="pdf/database/use_of_hazardous_wastes_in_industries_as_a_raw_material.pdf">Use of Hazardous Wastes in Industries as a Raw Material</a></p></li> 
+                         <li><p><a class="read_more" title="News Database" target="_blank" href="news_database.html">News Database</a></p></li>       
+                        
+                    </ul>
+                
+                
+                </div>
+            
+            </div>
+            
+            <span class="box-arrow"></span>
+        
+        </div>
+        
+        <div class="boxes-third">
+        
+        	<div class="boxes-padding">
+            
+            	<div class="bti">
+                   <!-- <div class="featured-images"><img src="images/cleansleek-icon.png" width="66" height="53" alt="Responsive"></div>-->
+                    <div class="featured-titles">Glossary</div>
+                </div>
+                <div class="featured-text">
+                	<!-- Starting simple slider -->
+                        <div id="simpleslider4">
+                                <!-- Slide 1 -->
+                                <div class="current4">
+                                    <h3>Authorization</h3>
+                                    <p>means permission for generation, handling, collection, reception, treatment,     transport, storage, recycling, reprocessing, recovery, reuse and disposal....</p>
+                                </div>
+                                <!-- End Slide 1 -->
+                                <!-- Slide 2 -->
+                                <div>
+                                   <h3>Basel Convention</h3>
+                                    <p>is the United Nations Environment Programme Convention on the Control of Tran boundary Movement of Hazardous Wastes and their Disposal....</p>
+                                </div>
+                                <!-- End Slide 2 -->
+                                <!-- Slide 3 -->
+                                <div>
+                                   <h3>CPCB</h3>
+                                    <p>“Central Pollution Control Board” means the Central Pollution Control Board constituted    under sub-section 1) of section 3 of the Water (Prevention and Control of Pollution) Act, 1974</p>
+                                </div>
+                                <!-- End Slide 3 -->
+                                <!-- Slide 3 -->
+                                <div>
+                                   <h3>Disposal</h3>
+                                    <p>means any operation which does not lead to recycling, recovery or reuse and     includes physic chemical, biological treatment, incineration and disposal....</p>
+                                </div>
+                                <!-- End Slide 3 -->
+                               <!-- Slide 4 -->
+                                <div>
+                                   <h3>Export</h3>
+                                    <p>with its grammatical variations and cognate expressions, means taking out of India to a place outside India.</p>
+                                </div>
+                                <!-- End Slide 4 -->
+                        </div>
+                    <!-- Ending simple slider -->
+                    <div align="right"><a class="smallsmoothrectange greenbutton" href="Glossary.html">View All</a></div>
+                </div>
+            
+            </div>
+            
+            <span class="box-arrow"></span>
+        
+        </div>
+        
+        <div class="boxes-third boxes-last">
+        
+        	<div class="boxes-padding">
+            	
+                <div class="bti">
+                    <!--<div class="featured-images"><img src="images/google-icon.png" width="54" height="53" alt="Responsive"></div>-->
+                    <div class="featured-titles">Bibliography</div>
+                </div>
+                <div class="featured-text">
+                	<!-- Starting simple slider -->
+                        <div id="simpleslider5">
+                                <!-- Slide 1 -->
+                                <div class="current5">
+                                    <h3 title="Managing Hazardous Chemicals :Longer Range Challenges">Sub: Managing Hazardous Chemicals</h3>
+                                    <p>Title: Managing Hazardous Chemicals :Longer Range Challenges</p>
+                                </div>
+                                <!-- End Slide 1 -->
+                                <!-- Slide 2 -->
+                                <div>
+                                   	<h3 title="Identification of Hazardous Waste Streams,their characterization and waste reduction options in Dyes & Dye Intermediate Sector">Sub: Waste reduction options in Dyes & Dye industry</h3>
+                                    <p>Title: Identification of Hazardous Waste Streams,their characterization and waste reduction options in Dyes & Dye Intermediate Sector</p>
+                                </div>
+                                <!-- End Slide 2 -->
+                                <!-- Slide 3 -->
+                                <div>
+                                   	<h3 title="Best Management Practices for Hazardous Dental Waste Disposal ">Sub: Hazardous dental waste disposal</h3>
+                                    <p>Title: Best Management Practices for Hazardous Dental Waste Disposal </p>
+                                </div>
+                                <!-- End Slide 3 -->
+                                <!-- Slide 4 -->
+                                <div>
+                                   	<h3 title="Hazardous Materials Disposal Guide">Sub: Disposal Guidelines </h3>
+                                    <p>Title: Hazardous Materials Disposal Guide</p>
+                                </div>
+                                <!-- End Slide 4 -->
+                               
+                        </div>
+                    <!-- Ending simple slider -->
+                    <div align="right"><a class="smallsmoothrectange greenbutton" href="bibliography.html">View All</a></div>                
+                </div>
+            
+            </div>
+            
+            <span class="box-arrow"></span>
+        
+        </div>
+        <!-- End Featured Boxes -->
+        <!--End-->
+        
+        <!-- Start Latest Project titles -->
+        <div class="boxes-full">
+        
+        	<div class="boxes-padding fullpadding"><h1>Explore More</h1></div>
+            
+            <span class="box-arrow"></span>
+        
+        </div>
+        <!-- End Latest Project titles -->
+        
+        <!-- Start Latest 3 Projects -->
+		<div class="boxes-third boxes-first">
+        
+       	  <div class="latestthree">
+            
+           	<div class="title">
+                Status Reports
+                <span class="titlearrow"></span>
+                </div>
+                <div class="latestthreeimage">
+                	<div class="text">
+                    	<ul>
+                        	<li><p><a class="read_more" href="status_reports.html" title="Technical EIA guidance manual or chemical fertilizers ">Technical EIA guidance manual or chemical fertilizers <img src="images/new-y.gif" width="22" height="12"></a></p></li>
+                        	<li><p><a class="read_more" href="status_reports.html" title="Protocol for performance evaluation and monitoring of the common hazardous waste treatment storage and disposal facilities including common hazardous waste incinerators">Protocol for performance evaluation and monitoring of the common hazardous waste...</a></p></li>
+                            
+                        </ul> 
+                    </div>
+                </div>
+            	<div class="text">
+               	<a href="status_reports.html" title="Read More" class="ReadMore">Read More..</a>
+                <span class="textarrow"></span>
+                </div>
+           </div>
+        
+        </div>
+        
+		<div class="boxes-third">
+        
+       	  <div class="latestthree">
+            
+           	<div class="title">
+                Publications
+                <span class="titlearrow"></span>
+                </div>
+                <div class="latestthreeimage">
+                	<div class="text">
+                   		<ul>
+                        	<li><p><a class="read_more" href="publications.html">Newsletters</a></p></li>
+                        	<li><p><a class="read_more" href="publications.html">E-Books</a></p></li>
+                            <li><p><a class="read_more" href="publications.html">Pamphlets</a></p></li>
+                            
+                        </ul> 
+                   
+                    </div>
+                </div>
+            	<div class="text">
+                <a href="publications.html" title="Read More" class="ReadMore">Read More..</a>
+                <span class="textarrow"></span>
+                </div>
+           </div>
+        
+        </div>
+        
+        <div class="boxes-third boxes-last">
+        
+       	  <div class="latestthree">
+            
+           	<div class="title">
+                Performance Report
+                <span class="titlearrow"></span>
+                </div>
+                <div class="latestthreeimage">
+                	<div class="text">
+                    	<ul>
+                        	<!--<li><p><a class="read_more" href="performance_report.html">Weekly Progress Report</a></p></li>-->
+                            <li><p><a class="read_more" href="performance_report.html">Monthly Progress Report</a></p></li>
+                            <li><p><a class="read_more" href="performance_report.html">Yearly Progress Report</a></p></li>
+                        </ul> 
+                    </div>
+                </div>
+            	<div class="text">
+               	<a href="performance_report.html" title="Read More" class="ReadMore">Read More..</a>
+                <span class="textarrow"></span>
+                </div>
+           </div>
+        
+        </div>
+        <!-- End Latest 3 Projects -->
+        
+         <!-- Start Latest 3 Projects -->
+		<div class="boxes-third boxes-first">
+        
+       	  <div class="latestthree">
+            
+           	<div class="title">
+                Data Analysis
+                <span class="titlearrow"></span>
+                </div>
+                <div class="latestthreeimage">
+                	<div class="text">
+                    	<ul>
+                        	<li><p><a class="read_more" href="data_analysis.html">Disposal by CH/PH/ Incineration/Landefill/Reuse</a></p></li>
+                            <li><p><a class="read_more" href="data_analysis_2.html">Technologies for Hazardous Waste Management</a></p></li>
+                        </ul> 
+                    </div>
+                </div>
+            	<div class="text">
+               	<a href="data_analysis.html" title="Read More" class="ReadMore">Read More..</a>
+                <span class="textarrow"></span>
+                </div>
+           </div>
+        
+        </div>
+        
+		<div class="boxes-third">
+        
+       	  <div class="latestthree">
+            
+           	<div class="title">
+                Do's & Don'ts
+                <span class="titlearrow"></span>
+                </div>
+                <div class="latestthreeimage">
+                	<div class="text">
+                   		<ul>
+                        	<li><p>Pesticides are severely poisonous to users health</p></li>
+                        	<!--<li><p></p></li>
+                            <li><p></p></li>-->
+                            
+                        </ul> 
+                   
+                    </div>
+                </div>
+            	<div class="text">
+                <a href="dos_donts.html" title="Read More" class="ReadMore">Read More..</a>
+                <span class="textarrow"></span>
+                </div>
+           </div>
+        
+        </div>
+        
+        <div class="boxes-third boxes-last">
+        
+       	  <div class="latestthree">
+            
+           	<div class="title">
+                Photo Gallery
+                <span class="titlearrow"></span>
+                </div>
+                <div class="latestthreeimage">
+                	<div class="text">
+                    	<p>Various Hazardous Wastes Sites / TSDFs / CETPs from all over India</p>	
+                    </div>
+                </div>
+            	<div class="text">
+               	<a href="gallery.html" title="Read More" class="ReadMore">View More..</a>
+                <span class="textarrow"></span>
+                </div>
+           </div>
+        
+        </div>
+        <!-- End Latest 3 Projects -->
+    
+    </div>
+    <!-- End Main Body Wrap -->
+
+</div>
+<!-- Start Footer -->
+<div id="footer">
+	<!-- Start Footer Top -->
+	<div id="footertop">
+    
+    	<div class="footerwrap">
+    		<!-- Start Latest Tweets -->
+            <div id="latest-tweets">
+                <div id="twittertitle">Other Links</div>
+                <div id="usefulbody">
+                	<ul>
+                    	<li><a href="query.html" title="Online Query">Online Query</a></li>
+                        <li><a href="experts.html" title="Experts">Experts</a></li>
+                        <!--  <li><a href="feedback.html" title="Feedback">Feedback</a></li>-->
+                        <li><a href="faqs.html" title="FAQ's">FAQ's</a></li>
+                        <!-- <li><a href="site_map.html" title="Site Map">Site Map</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <!-- End Latest Tweets -->
+    		<!-- Start Useful Links -->
+            <div id="useful_links">
+                <div id="usefultitle">Related Links</div>
+                <div id="usefulbody">
+                
+                	<ul>
+                    
+                    	<li><a target="_blank" href="http://www.moef.nic.in/" title="Ministry of Environment, Forests & Climate Change">Ministry of Environment, Forests & Climate Change</a></li>
+                        <li><a target="_blank" href="http://cpcb.nic.in/" title="Central Pollution Control Board"> Central Pollution Control Board</a></li>
+                        <li><a target="_blank" href="http://www.epa.gov/" title=""> US EPA</a></li>
+                        
+                    
+                    </ul>
+                
+                </div>
+            </div>
+            <!-- End Useful Links -->
+    		<!-- Start Testimonials -->
+            <div id="latest-testimonial">
+                <div id="testimonialtitle">Latest Updates</div>
+                <div id="testimonialbody">
+                	<!-- Starting simple slider -->
+                    <div id="simpleslider">
+                            <!-- Slide 1 -->
+                            <div class="current">
+                                <h6>Workshop 2015</h6>
+                                <p>ENVIS Regional Evaluation Workshop 2015 (Western Region)  </p>
+                            </div>
+                            <!-- End Slide 1 -->
+                            <!-- Slide 2 -->
+                            <div>
+                               <h6>Glossary Updated</h6>
+                                <p>Glossary Section updated with new keywords . </p>
+                            </div>
+                            <!-- End Slide 2 -->
+                            <!-- Slide 3 -->
+                           <!-- <div>
+                                <h6>Example Title 3</h6>
+                                <p>Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon </p>
+                            </div>-->
+                            <!-- End Slide 3 -->
+                            
+                    </div>
+                    <!-- Ending simple slider -->
+                	<div class="speachlower"></div>
+                </div>
+            </div>
+            <!-- End Latest Testimonials -->
+    	</div>
+    
+	</div>
+	<!-- End Footer Top -->
+    <div class="clear"></div>
+    <!-- Start Footer Bottom -->
+    <div id="footerbottom">
+    
+    	<div class="footerwrap">
+        
+        	<!-- Start Copyright Div -->
+            <div id="copyright">
+            <img src="images/india_gov_icon17.png" /><img src="images/nic1.jpg" />
+            
+            		<div id="sitehit">
+                    	<!--Site Update Date Script-->
+					   <script type="text/JavaScript"language="JavaScript">
+            
+                                    function date_ddmmmyy(date)
+                                    {
+                                      var d = date.getDate();
+                                      var m = date.getMonth() + 1;
+                                      var y = date.getYear();
+                                    
+                                      if(y >= 2000)
+                                      {
+                                        y -= 2000;
+                                      }
+                                      if(y >= 100)
+                                      {
+                                        y -= 100;
+                                      }
+                                    
+                                      var mmm = 
+                                        ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
+                                        ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
+                                        ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
+                                        (10==m)?'Oct':(11==m)?'Nov':'Dec';
+                                    
+                                      return "" +
+                                        (d<10?"0"+d:d) + "-" +
+                                        mmm + "-" +
+                                        (y<10?"0"+y:y);
+                                    }
+                                    
+                                    
+                                    function date_lastmodified()
+                                    {
+                                      var lmd = document.lastModified;
+                                      var s   = "Unknown";
+                                      var d1;
+                                    
+                                      if(0 != (d1=Date.parse(lmd)))
+                                      {
+                                        s = "" + date_ddmmmyy(new Date(d1));
+                                      }
+                                    
+                                      return s;
+                                    }
+                                    
+                                    document.write( 
+                                      "Site updated on " + 
+                                      date_lastmodified() );
+                                </script>
+                        <!--Site Update Date Script End-->
+                        <br>      
+                        <!-- Web Hit Counter -->
+                           <img style=" padding-top:4px;"  title="Visitor Number" border="0" src="http://cc.amazingcounters.com/counter.php?i=3156807&c=9470734"alt="Counter">
+                       <!-- Web Hit Counter End-->
+                       </div>
+            </div>
+            
+            <!-- Start Social area -->
+            <div class="socialfooter">
+               	<p class="fotter-titles">
+                	<a href="privacy_policy.html" >Privacy Policy </a>| <a href="copyrigt_policy.html" >Copyright Policy </a>| <a href="term_&_conditions.html" >Terms & Conditions </a>|<a href="hyperlinking_policy.html" >Hyperlinking Policy</a>|<a href="help.html" > Help</a>|<a href="disclaimer.html" > Disclaimer</a>
+            	</p>
+            </div>
+            <!-- End Socialarea -->
+        
+        </div>
+    
+    </div>
+    <!-- End Footer Bottom -->
+
+</div>
+<!-- End Footer -->
+<!-- Start Scroll To Top Div -->
+<div id="scrolltab"></div>
+<!-- End Scroll To Top Div -->
+</body>
+</html>

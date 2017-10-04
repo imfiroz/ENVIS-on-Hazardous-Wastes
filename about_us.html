@@ -1,0 +1,370 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to ENVIS on Hazardous Wastes</title>
+<meta name="description" content="Response Premium Html Responsive Template" />
+<meta name="keywords" content="Responsive Html, Responsive Template, Response" />
+<link rel="shortcut icon" href="images/envis_favicon.gif" /> 
+<link rel="bookmark icon" href="images/envis_favicon.gif" /> 
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<meta name="apple-mobile-web-app-capable" content="yes" /> 
+<meta name="apple-mobile-web-app-status-bar-style" content="grey" /> 
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" /> 
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="js/twitter.js"></script>    
+<script src="js/custom.js"></script>
+<script>   
+	//// Start Simple Sliders ////
+	$(function() {
+		setInterval("rotateDiv()", 10000);
+	});
+		
+		function rotateDiv() {
+		var currentDiv=$("#simpleslider div.current");
+		var nextDiv= currentDiv.next ();
+		if (nextDiv.length ==0)
+			nextDiv=$("#simpleslider div:first");
+		
+		currentDiv.removeClass('current').addClass('previous').fadeOut('2000');
+		nextDiv.fadeIn('3000').addClass('current',function() {
+			currentDiv.fadeOut('2000', function () {currentDiv.removeClass('previous');});
+		});
+	
+	}
+	//// End Simple Sliders //// 
+</script> 
+</head>
+
+<body>
+<div id="header">
+    	<!-- Start navigation area -->
+        <div id="navigation">
+
+        	<div id="navigation_wrap">
+
+                <!-- Start contact info area -->
+                <div id="conteactinfo"><strong>Email:</strong> neeri@envis.nic.in |  <strong>Phone:</strong> (+91) 712 224 9782</div>
+                <!-- End contact info area -->
+                <!-- Start navigation -->
+                <div id="navi">
+                
+                    <ul>
+                    
+                        <li><a href="index.html" title="Home">Home</a>
+                        	<ul>
+                                    	<li><a href="about_us.html" title="About ENVIS">About ENVIS</a></li>
+                                        
+                                        <li><a href="about_staff.html" title="About Staff">About Staff</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#" title="ENVIS Network">ENVIS Network</a>
+                        	<ul>
+                                    	<li><a href="envis_centers.html" title="ENVIS Centers">ENVIS Centers</a></li>
+                                        <li><a href="focal_point.html" title="Focal Point">Focal Point</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#" title="Enanctments">Enanctments</a>
+                        	<ul>
+                                    	
+                                        <li><a href="convections_treaties.html" title="Convections/Treaties">Convections/ Treaties</a></li>
+                                        <li><a href="rules_in_india.html" title="Rules in India">Rules in India</a></li>
+                                        <li><a href="rules_in_other_country.html" title="Rules in Other Country">Rules in Other Country</a></li>
+                                        <li><a href="policies.html" title="Policies">Policies</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#" title="Enanctments">Case Studies</a>
+                        	<ul>
+                                    	<li><a href="Scientific_studies.html" title="Scientific Studies">Scientific Studies</a></li><li><a href="policy_studies.html" title="Policy Studies">Policy Studies</a></li>
+                                        <li><a href="legal.html" title="Legal">Legal</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="technologies.html" title="Technologies">Technologies</a></li>
+                        <!--<li><a href="gallery.html" title="Gallery">Gallery</a></li>-->
+                        <li><a href="contact-us.html" title="Contact Response">Contact Us</a></li>
+                    
+                    </ul>
+                
+                </div>
+                <!-- End navigation -->
+                
+			</div>
+        
+        </div>
+        <!-- End navigation area -->
+        <div class="clear"></div>
+        <!-- Start Social & Logo area -->
+        <div id="header_small">
+        	<!-- Start Social area -->
+        	<div class="social">
+            	
+                <div>
+                    <img src="images/csir_logo.png" />
+                    <img src="images/neeri_logo.png" />
+                </div>
+            </div>
+            <!-- End Socialarea -->
+            <div class="logo-txt">
+            	<h1>ENVIS on HAZARDOUS WASTES</h1>
+                <h2>CSIR - National Environmental Engineering Research Institute Nehru Marg, Nagpur</h2>
+                <h3>Sponsored by Ministry of Environment, Forests & Climate Change, Govt of India</h3>
+            </div>
+            <!-- Start Logo area -->
+            <div id="logo">
+            	<div class="logo-new">
+            			<img src="images/envis_logo.png" />
+                </div>
+             
+            </div>
+            <!-- End Logo area -->
+        
+        </div>
+        <!-- End Social & Logo area -->
+
+</div>
+
+<div id="main">
+    <!-- Start H1 Title -->
+    <div class="titlesnormal">
+    
+    	<h1>About Us</h1>
+        
+        <span></span>
+    
+    </div>
+    <!-- End H1 Title -->
+    <!-- Start Main Body Wrap -->
+    <div id="main-wrap">
+        
+        <!-- Start Latest Project titles -->
+        <div class="boxes-full">
+        
+        	<div class="boxes-padding fullpadding">
+            	
+                <!-- Start None Split Section -->
+            	<div class="splitnone">
+                		 <p style="float:right;">
+                    		<!--Page Update Date Script-->
+						   <script type="text/JavaScript"language="JavaScript">
+                
+                                        function date_ddmmmyy(date)
+                                        {
+                                          var d = date.getDate();
+                                          var m = date.getMonth() + 1;
+                                          var y = date.getYear();
+                                        
+                                          if(y >= 2000)
+                                          {
+                                            y -= 2000;
+                                          }
+                                          if(y >= 100)
+                                          {
+                                            y -= 100;
+                                          }
+                                        
+                                          var mmm = 
+                                            ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
+                                            ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
+                                            ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
+                                            (10==m)?'Oct':(11==m)?'Nov':'Dec';
+                                        
+                                          return "" +
+                                            (d<10?"0"+d:d) + "-" +
+                                            mmm + "-" +
+                                            (y<10?"0"+y:y);
+                                        }
+                                        
+                                        
+                                        function date_lastmodified()
+                                        {
+                                          var lmd = document.lastModified;
+                                          var s   = "Unknown";
+                                          var d1;
+                                        
+                                          if(0 != (d1=Date.parse(lmd)))
+                                          {
+                                            s = "" + date_ddmmmyy(new Date(d1));
+                                          }
+                                        
+                                          return s;
+                                        }
+                                        
+                                        document.write( 
+                                          "Updated on " + 
+                                          date_lastmodified() );
+                                    </script>
+                        	<!--Page Update Date Script End-->
+                    </p>
+                	<h3>About Environmental Information System (ENVIS)</h3>
+                    
+                    <p> Environmental information plays a vital role not only in formulating environmental management policies but also in the decision making process aiming at environmental protection and improvement of environment for sustaining good quality of life for the living beings. Hence, management of environment is key component and thus plays an important role in effecting a balance between the demands and resources available for keeping the environmental quality at a satisfactory level. Realizing such need Ministry set up an Environmental Information System (ENVIS) in 1983 as a plan programme as a comprehensive network in environmental information collection, collation, storage, retrieval and dissemination to varying users, which include decision-makers, researchers, academicians, policy planners and research scientists, etc.</p>
+                    
+                    <p>ENVIS was conceived as a distributed information network with the subject-specific centers to carry out the mandates and to provide the relevant and timely information to all concerned. Further, association of the various State Governments/UTs was also felt necessary in promoting the ENVIS network to cover a wide range of subjects. The subject area for States/UTs ENVIS Centers was the status of environment and related issues. Thus, the network was expanded gradually with the involvement of thematic subject-areas and State Government/UT departments to make it a more comprehensive environmental information network.</p>
+                    
+                    <p> ENVIS network at present consists of a chain of 67 network partners out of which 39 are on subject-specific and 28 on State/UT related issues. These network partners are called ENVIS Centers and are located in the notable organizations/institutions/State/UT Government Departments/Universities throughout the country. The focal point of ENVIS is located in the Ministry and assists the Environment Information (EI) Division in coordinating the activities of all the ENVIS network partners by making ENVIS a web-enabled comprehensive information system.</p>
+                    
+                    <p>For more details vist offical ENVIS website :<a class="read_more" target="_blank" href="envis.nic.in">www.envis.nic.in</a></p>
+                
+               
+            	
+                <div class="clear"></div>
+                <hr />
+                
+                	<h3>About ENVIS NEERI</h3>
+                    
+                    <p> The ENVIS Centre on "Hazardous Wastes" was established in 1993 at National Environmental Engineeering Research Institute (NEERI), Nagpur with the financial assistance from the Ministry of Environment , Forests & Climate Change, Government of India. The Centre is functioning as a partner in the Environmental Information System (ENVIS) network spread all over the country, with the focal point at the Ministry of Environment , Forests & Climate Change (MoEF&CC), New Delhi.</p>
+                    
+                    <p>The major topics covered / to be covered by the ENVIS Centre at NEERI on the thematic area are legislations, regulations and policies in the field of hazardous waste management, emerging technologies for hazardous waste management, important national/international activities/projects/developments, information resources (websites, journals/books and databases) and the organized/forthcoming events (conferences/workshops/training programmes etc.). The MoEF&CC provides a recurring grant every year depending on the availability of funds at the centre.</p>
+                
+                </div>
+            	<!-- End None Split Section -->
+                <div class="clear"></div>
+                <hr />
+                <!-- Start 2 Half Split Section -->
+                <div class="split2">
+                
+                    <h3>Our Objectives</h3>
+                    
+                    <p>To collect , collate , retrieve and disseminate the information in terms of :</p>
+                    
+                    <ul>
+                        <li><p>Status of hazardous waste management at national and international level</p></li>
+                        <li><p>Current research activities in the field of hazardous waste management</p></li>
+                        <li><p>Various technologies / know-how produced in the field of hazardous waste management</p></li>
+                        <li><p>Conferences/treaties , enactments and policies</p></li>
+                    </ul>
+                
+                </div>
+                
+                <div class="split2">
+                
+                    <h3>&nbsp;</h3>
+                    
+                    <p>&nbsp;</p>
+                    
+                    <ul>
+                        <li><p>Emerging issues in the field of hazardous waste management</p></li>
+                        <li><p>Challenges in the field of hazardous waste management</p></li>
+                        <li><p>Activities related to sustainable development, with special reference to hazardous waste management</p></li>
+                        <li><p>Events that are taking place in the field of hazardous waste management</p></li>
+                        <li><p>News and views</p></li>
+                    </ul>
+                    
+                </div>
+                <!-- End 2 Half Split Section -->
+                <div class="clear"></div>
+                <hr />
+                
+            <span class="box-arrow"></span>
+        
+        </div>
+        <!-- End Latest Project titles -->
+    
+    </div>
+    <!-- End Main Body Wrap -->
+
+</div>
+<!-- Start Footer -->
+<div id="footer">
+	<!-- Start Footer Top -->
+	<div id="footertop">
+    
+    	<div class="footerwrap">
+    		<!-- Start Latest Tweets -->
+            <div id="latest-tweets">
+                <div id="twittertitle">Other Links</div>
+                <div id="usefulbody">
+                	<ul>
+                    	<li><a href="query.html" title="Online Query">Online Query</a></li>
+                        <li><a href="experts.html" title="Experts">Experts</a></li>
+                        <!--  <li><a href="feedback.html" title="Feedback">Feedback</a></li>-->
+                        <li><a href="faqs.html" title="FAQ's">FAQ's</a></li>
+                        <!-- <li><a href="site_map.html" title="Site Map">Site Map</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <!-- End Latest Tweets -->
+    		<!-- Start Useful Links -->
+            <div id="useful_links">
+                <div id="usefultitle">Related Links</div>
+                <div id="usefulbody">
+                
+                	<ul>
+                    
+                    	<li><a target="_blank" href="http://www.moef.nic.in/" title="Ministry of Environment, Forests & Climate Change">Ministry of Environment, Forests & Climate Change</a></li>
+                        <li><a target="_blank" href="http://cpcb.nic.in/" title="Central Pollution Control Board"> Central Pollution Control Board</a></li>
+                        <li><a target="_blank" href="http://www.epa.gov/" title=""> US EPA</a></li>
+                        
+                    
+                    </ul>
+                
+                </div>
+            </div>
+            <!-- End Useful Links -->
+    		<!-- Start Testimonials -->
+            <div id="latest-testimonial">
+                <div id="testimonialtitle">Latest Updates</div>
+                <div id="testimonialbody">
+                	<!-- Starting simple slider -->
+                    <div id="simpleslider">
+                           <!-- Slide 1 -->
+                            <div class="current">
+                                <h6>Workshop 2015</h6>
+                                <p>ENVIS Regional Evaluation Workshop 2015 (Southern Region)  </p>
+                            </div>
+                            <!-- End Slide 1 -->
+                            <!-- Slide 2 -->
+                            <!--<div>
+                               <h6>Status Reports Updated</h6>
+                                <p>Two New Reports added </p>
+                            </div>-->
+                            <!-- End Slide 2 -->
+                            <!-- Slide 3 -->
+                           <!-- <div>
+                                <h6>Example Title 3</h6>
+                                <p>Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon Coming Soon </p>
+                            </div>-->
+                            <!-- End Slide 3 -->
+                            
+                    </div>
+                    <!-- Ending simple slider -->
+                	<div class="speachlower"></div>
+                </div>
+            </div>
+            <!-- End Latest Testimonials -->
+    	</div>
+    
+	</div>
+	<!-- End Footer Top -->
+    <div class="clear"></div>
+    <!-- Start Footer Bottom -->
+    <div id="footerbottom">
+    
+    	<div class="footerwrap">
+        
+        	<!-- Start Copyright Div -->
+            <div id="copyright">
+            <img src="images/india_gov_icon17.png" /><img src="images/nic1.jpg" />
+            </div>
+
+            <!-- Start Social area -->
+            <div class="socialfooter">
+               	<p class="fotter-titles">
+                	<a href="privacy_policy.html" >Privacy Policy </a>| <a href="copyrigt_policy.html" >Copyright Policy </a>| <a href="term_&_conditions.html" >Terms & Conditions </a>|<a href="hyperlinking_policy.html" >Hyperlinking Policy</a>|<a href="help.html" > Help</a>|<a href="disclaimer.html" > Disclaimer</a>
+            	</p>
+            </div>
+            <!-- End Socialarea -->
+        
+        </div>
+    
+    </div>
+    <!-- End Footer Bottom -->
+</div>
+<!-- End Footer -->
+<!-- Start Scroll To Top Div -->
+<div id="scrolltab"></div>
+<!-- End Scroll To Top Div -->
+</body>
+</html>
