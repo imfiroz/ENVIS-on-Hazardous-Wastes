@@ -1,0 +1,681 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to ENVIS on Hazardous Wastes</title>
+<meta name="description" content="Response Premium Html Responsive Template" />
+<meta name="keywords" content="Responsive Html, Responsive Template, Response" />
+<link rel="shortcut icon" href="images/envis_favicon.gif" /> 
+<link rel="bookmark icon" href="images/envis_favicon.gif" /> 
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<meta name="apple-mobile-web-app-capable" content="yes" /> 
+<meta name="apple-mobile-web-app-status-bar-style" content="grey" /> 
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" /> 
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="js/twitter.js"></script>    
+<script src="js/custom.js"></script>
+<script>   
+	//// Start Simple Sliders ////
+	$(function() {
+		setInterval("rotateDiv()", 10000);
+	});
+		
+		function rotateDiv() {
+		var currentDiv=$("#simpleslider div.current");
+		var nextDiv= currentDiv.next ();
+		if (nextDiv.length ==0)
+			nextDiv=$("#simpleslider div:first");
+		
+		currentDiv.removeClass('current').addClass('previous').fadeOut('2000');
+		nextDiv.fadeIn('3000').addClass('current',function() {
+			currentDiv.fadeOut('2000', function () {currentDiv.removeClass('previous');});
+		});
+	
+	}
+	//// End Simple Sliders //// 
+</script> 
+</head>
+
+<body>
+<div id="header">
+    	<!-- Start navigation area -->
+        <div id="navigation">
+
+        	<div id="navigation_wrap">
+
+                <!-- Start contact info area -->
+                <div id="conteactinfo"><strong>Email:</strong> neeri@envis.nic.in |  <strong>Phone:</strong> (+91) 712 224 9782</div>
+                <!-- End contact info area -->
+                <!-- Start navigation -->
+                <div id="navi">
+                
+                    <ul>
+                    
+                        <li><a href="index.html" title="Home">Home</a>
+                        	<ul>
+                                    	<li><a href="about_us.html" title="About ENVIS">About ENVIS</a></li>
+                                        
+                                        <li><a href="about_staff.html" title="About Staff">About Staff</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#" title="ENVIS Network">ENVIS Network</a>
+                        	<ul>
+                                    	<li><a href="envis_centers.html" title="ENVIS Centers">ENVIS Centers</a></li>
+                                        <li><a href="focal_point.html" title="Focal Point">Focal Point</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#" title="Enanctments">Enanctments</a>
+                        	<ul>
+                                    	
+                                        <li><a href="convections_treaties.html" title="Convections/Treaties">Convections/ Treaties</a></li>
+                                        <li><a href="rules_in_india.html" title="Rules in India">Rules in India</a></li>
+                                        <li><a href="rules_in_other_country.html" title="Rules in Other Country">Rules in Other Country</a></li>
+                                        <li><a href="policies.html" title="Policies">Policies</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#" title="Enanctments">Case Studies</a>
+                        	<ul>
+                                    	<li><a href="Scientific_studies.html" title="Scientific Studies">Scientific Studies</a></li><li><a href="policy_studies.html" title="Policy Studies">Policy Studies</a></li>
+                                        <li><a href="legal.html" title="Legal">Legal</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="technologies.html" title="Technologies">Technologies</a></li>
+                        <!--<li><a href="gallery.html" title="Gallery">Gallery</a></li>-->
+                        <li><a href="contact-us.html" title="Contact Response">Contact Us</a></li>
+                    
+                    </ul>
+                
+                </div>
+                <!-- End navigation -->
+                
+			</div>
+        
+        </div>
+        <!-- End navigation area -->
+        <div class="clear"></div>
+        <!-- Start Social & Logo area -->
+        <div id="header_small">
+        	<!-- Start Social area -->
+        	<div class="social">
+            	
+                <div>
+                    <img src="images/csir_logo.png" />
+                    <img src="images/neeri_logo.png" />
+                </div>
+            </div>
+            <!-- End Socialarea -->
+            <div class="logo-txt">
+            	<h1>ENVIS on HAZARDOUS WASTES</h1>
+                <h2>CSIR - National Environmental Engineering Research Institute, Nehru Marg, Nagpur</h2>
+                <h3>Sponsored by Ministry of Environment, Forests & Climate Change, Govt of India</h3>
+            </div>
+            <!-- Start Logo area -->
+            <div id="logo">
+            	<div class="logo-new">
+            			<img src="images/envis_logo.png" />
+                </div>
+             
+            </div>
+            <!-- End Logo area -->
+        
+        </div>
+        <!-- End Social & Logo area -->
+
+</div>
+
+<div id="main">
+    <!-- Start H1 Title -->
+    <div class="titlesnormal">
+    
+    	<h1>R & D Abstracts</h1>
+        
+        <span></span>
+        
+    </div>
+    <!-- End H1 Title -->
+    <!-- Start Main Body Wrap -->
+    <div id="main-wrap">
+        <!-- Start Latest Project titles -->
+        <div class="boxes-full">
+        
+        	<div class="boxes-padding fullpadding">
+            	
+                <!-- Start None Split Section -->
+            	<div class="splitnone">
+                		<p style="float:right;">
+                    		<!--Page Update Date Script-->
+						   <script type="text/JavaScript"language="JavaScript">
+                
+                                        function date_ddmmmyy(date)
+                                        {
+                                          var d = date.getDate();
+                                          var m = date.getMonth() + 1;
+                                          var y = date.getYear();
+                                        
+                                          if(y >= 2000)
+                                          {
+                                            y -= 2000;
+                                          }
+                                          if(y >= 100)
+                                          {
+                                            y -= 100;
+                                          }
+                                        
+                                          var mmm = 
+                                            ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
+                                            ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
+                                            ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
+                                            (10==m)?'Oct':(11==m)?'Nov':'Dec';
+                                        
+                                          return "" +
+                                            (d<10?"0"+d:d) + "-" +
+                                            mmm + "-" +
+                                            (y<10?"0"+y:y);
+                                        }
+                                        
+                                        
+                                        function date_lastmodified()
+                                        {
+                                          var lmd = document.lastModified;
+                                          var s   = "Unknown";
+                                          var d1;
+                                        
+                                          if(0 != (d1=Date.parse(lmd)))
+                                          {
+                                            s = "" + date_ddmmmyy(new Date(d1));
+                                          }
+                                        
+                                          return s;
+                                        }
+                                        
+                                        document.write( 
+                                          "Updated on " + 
+                                          date_lastmodified() );
+                                    </script>
+                        	<!--Page Update Date Script End-->
+                    </p>
+                <br><br>
+                <hr>
+                
+                <!--Main Content Area-->
+                
+                <p style="padding-left: 30px; font-weight: bolder; color: #CC9400; font-size: 16px;">2013-2014</p>
+                
+                <h3 title="Removal of aqueous Hg(II) and Cr(VI) using phytic acid doped polyaniline/cellulose acetate composite membrane">&nbsp;1.Removal of aqueous Hg(II) and Cr(VI) using phytic acid doped polyaniline/cellulose acetate composite membrane</h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conductive composite membrane—phytic acid (PA) doped polyaniline (PANI)/cellulose acetate (CA) (PANI-PA/CA) was prepared in a simple and environmental-friendly method, in which aniline was blended with CA/PA solution and polymerized before the phase conversion. The resultant composite membranes were characterized by SEM, EDX, FTIR-ATR, BET and electrical resistance measurements. When used as adsorbent for Hg(II) and Cr(VI) ions, the prepared composite membrane exhibits excellent adsorption capability. The adsorption of Hg(II) and Cr(VI) follows a pseudo-second-order kinetic model and best fits the Langmuir isotherm model, with the maximum adsorption capacity reaching 280.11 and 94.34 mg g−1, respectively. The heavy metal loaded composite membrane can be regenerated and reused after treatment with acid or alkali solution, making it a promising and practical adsorbent for Hg(II) and Cr(VI) removal. Tests with river water were also carried out, indicating good performance and application.</p>
+                
+                <p>Source PDF Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S030438941400627X/pdf?md5=736bcf0c88cedc5121120c9c6fe7f490&pid=1-s2.0-S030438941400627X-main.pdf">&nbsp;Download</a></p>
+                
+                 <h3 title="Effectiveness of recombinant protein AlnA in enhancing the extractability of polychlorinated biphenyls from contaminated soils">&nbsp;2.Effectiveness of recombinant protein AlnA in enhancing the extractability of polychlorinated biphenyls from contaminated soils</h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the major limitations in bioremediation of polychlorinated biphenyls (PCBs) in contaminated soils is their low water solubility and high adsorbability. In the present study, effectiveness of recombinant protein AlnA as a biosurfactant in increasing extractability of PCBs was first investigated. The AlnA surface tension measurements allowed for determination of the minimum value of 37.89 mN/m with critical micelle concentration of 1.07 g/L. The solubilization of PCBs and desorption experiments were performed. It was observed that AlnA at 20 μg/mL could enhance solubility of selected crystal PCBs varying from 1.87 to 6.12 folds and it is easier to recover PCBs from contaminated soils compared with Tween-80 and cyclodextrin. Pot experiments indicated AlnA elevated 1.4–2.1-fold PCBs accumulation in roots by Alfalfa. The homology modeling and docking revealed PCBs congeners had different interactions with AlnA and higher-chlorinated PCBs possessed higher binding affinity. Results showed AlnA had considerable application potential in remediation of PCBs pollution.</p>
+                
+                 <p>Source PDF Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0304389414005445/pdf?md5=f52a605c811520135cccd7fdcad14167&pid=1-s2.0-S0304389414005445-main.pdf">&nbsp;Download</a></p>
+                
+                 <h3 title="Co-metabolic degradation of diazo dye—Reactive blue 160 by enriched mixed cultures BDN">&nbsp;3.Co-metabolic degradation of diazo dye—Reactive blue 160 by enriched mixed cultures BDN</h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mixed cultures BDN (BDN) proficient in decolourizing diazo dye—reactive blue 160 (RB160) consist of eight bacterial strains, was developed through culture enrichment method from soil samples contaminated with anthropogenic activities. The synthrophic interactions of BDN have led to complete decolourization and degradation of RB160 (100 mg/L) within 4 h along with co-metabolism of yeast extract (0.5%) in minimal medium. BDN microaerophilicaly decolourized even 1500 mg/L of RB160 under high saline conditions (20 g/L NaCl) at 37 °C and pH 7.0. BDN exhibited broad substrate specificity and decolourized 27 structurally different dyes. The reductase enzymes symmetrically cleaved RB160 and oxidative enzymes further metabolised the degraded products and five different intermediates were identified using FTIR, 1HNMR and GC–MS. The phytotoxicity assay confirmed that intact RB160 was more toxic than dye degraded intermediates. The BDN was able to colonize and decolourized RB160 in soil model system in presence of indigenous miocroflora as well as in sterile soil without any amendment of additional nutrients, which signifies it useful and potential application in bioremediation.</p>
+                
+                 <p>Source PDF Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0304389414005366/pdf?md5=7e85a1ca53f24aaf89135e0ae63ee777&pid=1-s2.0-S0304389414005366-main.pdf">&nbsp;Download</a></p>
+                 
+                 <h3 title="Pteris vittata continuously removed arsenic from non-labile fraction in three contaminated-soils during 3.5 years of phytoextraction">&nbsp;4.Pteris vittata continuously removed arsenic from non-labile fraction in three contaminated-soils during 3.5 years of phytoextraction</h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We evaluated the effectiveness of arsenic (As) hyperaccumulator Pteris vittata to continuously remove As from three contaminated-soils containing 26–126 mg kg−1 As over 7 harvests in 3.5 years. Changes in As speciation in soils, amended with P fertilizer (P-soil) or insoluble phosphate rock (PR-soil), were assessed via sequential fractionation. Arsenic in available (soluble + exchangeable), non-labile (bound to amorphous + crystalline Fe/Al oxides), and residual fractions constituted ∼12%, ∼80%, and ∼8% of soil As. Soluble As declined while exchangeable As was unchanged, likely due to replenishment from non-labile As, which accounted for ∼87% of decline in total soil As. Although plant-available as is important, the non-labile As better predicted the frond As concentration in P. vittata, with the correlation being r = 0.90 and 0.64 for PR-soils and P-soils. P. vittata removed 44% of soil As from PR-soils compared to 33% from P-soils, suggesting the low-soluble P from PR was more effective than P fertilizer in enhancing As uptake byP. vittata. To facilitate acquisition of P from PR, P. vittata produced larger root biomass to solubilize non-labile As, allowing for more efficient phytoextraction.</p>
+                
+                 <p>Source PDF Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0304389414005354/pdf?md5=7e2b5c76bf9d92862c52adaa7aecd91a&pid=1-s2.0-S0304389414005354-main.pdf">&nbsp;Download</a></p>
+                 
+                 <h3 title="Iron amendments to reduce bioaccessible arsenic">&nbsp;5.Iron amendments to reduce bioaccessible arsenic</h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Former sugarcane lands on the Island of Hawaii have elevated levels of soil arsenic (As) from historical use of arsenical pesticides. The bioaccessible fraction of total As (AsTOT), a measure of the potential for human As uptake by incidental ingestion of soil, is used in the assessment of human health risk and the determination of the need for remedial action. Ferric chloride plus lime and ferrous sulfate plus lime were applied to As-contaminated soils in a field plot setting to determine the potential for reducing in vitrobioaccessible As (AsIVBA) by increasing As sequestration by the formation of additional iron (Fe) oxyhydroxides. The two Fe sources performed similarly in reducing AsIVBA over a 2-year observation period, with 30–41% reduction in AsIVBA for 0.25 wt% Fe dosing (dry soil basis) and 59–63% reduction for 0.5 wt% Fe dosing. Addition of phosphate (PO4) to treated and untreated soils caused a significant increase in AsIVBA. Iron-treated and control soils showed more than twice the AsIVBA after the addition of 1500 mg P kg−1. The cost of in situ treatment of As-contaminated soil with ferrous sulfate plus lime to lower AsIVBA was estimated to be an order of magnitude less than excavation and landfill disposal on the Island of Hawaii, making the technology a viable alternative when remedial action objectives were based on AsIVBAlevels.</p>
+                
+                 <p>Source PDF Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0304389414006189/pdf?md5=97d8ef5d8ea99c4fd3b7b47531e0bf2a&pid=1-s2.0-S0304389414006189-main.pdf">&nbsp;Download</a></p>
+                 
+                 <h3 title="Risks of toxic ash from artisanal mining of discarded cellphones">&nbsp;6.Risks of toxic ash from artisanal mining of discarded cellphones</h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The potential environmental and human health impacts of artisanal mining of electronic waste through open incineration were investigated. A market-representative set of cellphones was dismantled into four component categories—batteries, circuit boards, plastics and screens. The components were shredded, sieved and incinerated at 743–818 °C. The concentrations of 17 metals were determined using U.S. EPA methods 6010C (inductively coupled plasma-atomic emission spectrometry; 6020A (inductively coupled plasma-mass spectrometry, or 7471B and 7470A (cold-vapor atomic absorption). EPA Method 8270 (gas chromatography/mass spectrometry) was used to identify polyaromatic hydrocarbon compounds and polybrominated diphenyl ethers. EPA Method 8082A was used to measure polychlorinated biphenyls and EPA Method 8290 was used for dioxin/furans in the residue ash. The life cycle assessment model USEtox®was used to estimate impacts of the ash residue chemicals on human health and the ecosystem. Among metals, copper in printed circuit boards had the highest ecotoxicity impact (1610–1930 PAF m3/kg); Beryllium in plastics had the highest impact on producing non-cancer diseases (0.14–0.44 cases/kg of ash); and Nickel had the largest impact on producing cancers (0.093–0.35 cases/kg of ash). Among organic chemicals, dioxins from incinerated batteries produced the largest ecotoxicological impact (1.07E − 04 to 3.64E − 04 PAF m3/kg). Furans in incinerated batteries can generate the largest number of cancers and non-cancer diseases, representing 8.12E − 09 to 2.28E − 08 and 8.96E − 10 and 2.52E − 09 cases/kg of ash, respectively. The results reveal hazards of burning discarded cellphones to recover precious metals, and pinpoints opportunities for manufacturers to reduce toxic materials used in specific electronic components marketed globally.</p>
+                
+                 <p>Source PDF Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0304389414004440/pdf?md5=84f63e74eaecf39034685b85fdcb512b&pid=1-s2.0-S0304389414004440-main.pdf">&nbsp;Download</a></p>
+                 
+                 <h3 title="Contrasting levels of heavy metals in the feathers of urban pigeons from close habitats suggest limited movements at a restricted scale">&nbsp;7.Contrasting levels of heavy metals in the feathers of urban pigeons from close habitats suggest limited movements at a restricted scale</h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Despite restrictions in emissions, heavy metals may remain a major environmental issue due to their numerous sources and their persistence. Here, we assessed current levels of 4 metals (Copper, Cadmium, Lead, Zinc) in the feathers of 91 feral pigeons (Columba livia) from 7 sites in the urbanized region of Paris. Elements were detected in all pigeons, indicating that metals persist in urbanized areas. The ratio between metal concentrations in the feathers vs. in the environment calculated using data from other studies was 2–90 times higher for cadmium than for other metals, underlying its ecological importance. Concentrations in the feathers depended on locality, suggesting that pigeons remain in local habitats at this restricted scale, as expected from previous observations. Overall, our study suggests that urban feral pigeons may represent a good model system for metal biomonitoring.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112001844">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Long-term persistence of various 14C-labeled pesticides in soils">&nbsp;8.Long-term persistence of various 14C-labeled pesticides in soils </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The fate of the 14C-labeled herbicides ethidimuron (ETD), methabenzthiazuron (MBT), and the fungicide anilazine (ANI) in soils was evaluated after long-term aging (9–17 years) in field based lysimeters subject to crop rotation. Analysis of residual 14C activity in the soils revealed 19% (ETD soil; 0–10 cm depth), 35% (MBT soil; 0–30), and 43% (ANI soil; 0–30) of the total initially applied. Accelerated solvent extraction yielded 90% (ETD soil), 26% (MBT soil), and 41% (ANI soil) of residual pesticide 14C activity in the samples. LC-MS/MS analysis revealed the parent compounds ETD and MBT, accounting for 3% and 2% of applied active ingredient in the soil layer, as well as dihydroxy-anilazine as the primary ANI metabolite. The results for ETD and MBT were matching with values obtained from samples of a 12 year old field plot experiment. The data demonstrate the long-term persistence of these pesticides in soils based on outdoor trials.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112002047">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Environmental risks of trace elements associated with long-term phosphate fertilizers applications: A review ">&nbsp;9.Environmental risks of trace elements associated with long-term phosphate fertilizers applications: A review  </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Application of phosphate fertilizer can be a significant contributor of potentially hazardous trace elements such as arsenic, cadmium, and lead in croplands. These trace elements have the potential to accumulate in soils and be transferred through the food chain. We articulated the environmental risks of trace elements associated with long-term phosphate fertilizer applications by combining data from the literature and results from model simulations. Results illustrate that under normal cropping practice, the impact of phosphate fertilizers applications on trace element accumulation in receiving soils has been limited and localized. Their plant uptake varied greatly depending on the fertilizer application rates, soil and plant characteristics. This has led to a great deal of uncertainty in characterizing soil distribution coefficients, Kd, and plant uptake factors, PUF, two of the most used parameters in assessing the risks of accumulations. Therefore, the risks may be more appropriately assessed based on the probabilistic distributions of Kd and PUF.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112001923">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Evaluation of acute toxicity and teratogenic effects of disinfectants by Daphnia magna embryo assay">&nbsp;10.Evaluation of acute toxicity and teratogenic effects of disinfectants by Daphnia magna embryo assay </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Three common disinfectants were selected in this study to investigate their toxicity to Daphnia magna. The methods used in this study included the traditional acute toxicity test, new embryo toxicity test, and teratogenic test. The study concluded that the acute toxicity of the three disinfectants to young daphnids and embryos were hypochlorite > formaldehyde > m-cresol. The effects on growth mostly occurred in the late stages of organogenesis. Of the organs, the Malpighian tube was the most sensitive to disinfectants during embryonic organogenesis. After exposure of the disinfectants to sunlight for 4 h, acute toxicity and teratogenic effects of hypochlorite on young daphnids decreased by 30% and 71%, respectively, while those of formaldehyde decreased by 35% and 49%, respectively. In addition, comparing toxic endpoints of the three disinfectants with and without sunlight exposure, the embryo tests were equally sensitive to the three-week reproduction test in this study.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112001893">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Parent and halogenated polycyclic aromatic hydrocarbons in rice and implications for human health in China ">&nbsp;11.Parent and halogenated polycyclic aromatic hydrocarbons in rice and implications for human health in China </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rice is the staple food for approximate two thirds of the Chinese population. However, human exposure to parent and halogenated polycyclic aromatic hydrocarbons (PAHs) via rice consumption is still not clear for Chinese people so far. The goals of this work are to assess human exposure to PAHs and halogenated PAHs (HPAHs) via rice ingestion and the cancer risk for Chinese population. 16 PAHs and eight HPAHs were determined in rice samples collected from 18 provinces in China. In general terms, the general population in China was exposed to higher levels of PAHs via rice ingestion in comparison to that via cereals for other countries. The cancer risk values induced by exposure to PAHs and HPAHs for male and female on each age group were between the priority risk level (10−4) and the acceptable risk level (10−6). Children faced the highest cancer risk, followed by adolescents and adults.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112002199">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Distribution, historical trends and inventories of polychlorinated biphenyls in sediments from Yangtze River Estuary and adjacent East China Sea">&nbsp;12.Distribution, historical trends and inventories of polychlorinated biphenyls in sediments from Yangtze River Estuary and adjacent East China Sea </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A large portion of polychlorinated biphenyls (PCBs) from e-waste released into the coastal areas may be the potential source of PCBs to the global oceans. The paper presents data of PCBs concentrations in fifty surface sediment samples and a dated sediment core in Yangtze River Delta (YRE) and adjacent East China Sea (ECS). The total PCBs levels varied from 5.08 to 19.64 ng/g dry weight, with the highest concentrations situate within the river-sea boundary zone which is so-called “marginal filter”. Concurrent with the operation of e-waste recycling over the last two decades, PCB fluxes started to rise again after 1980s and reached a maximum in this century. The full data set was used to estimate the burden of PCBs in YRE and adjacent ECS. A total sediment burdens were 192.8 tons, with the spatial density of 364 ng/cm2 which accounts for 1.9% of all the PCBs in China.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112002308">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Chemical stabilization of metals and arsenic in contaminated soils using oxides – A review ">&nbsp;13.Chemical stabilization of metals and arsenic in contaminated soils using oxides – A review </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Oxides and their precursors have been extensively studied, either singly or in combination with other amendments promoting sorption, for in situ stabilization of metals and As in contaminated soils. This remediation option aims at reducing the available fraction of metal (loid)s, notably in the root zone, and thus lowering the risks associated with their leaching, ecotoxicity, plant uptake and human exposure. This review summarizes literature data on mechanisms involved in the immobilization process and presents results from laboratory and field experiments, including the subsequent influence on higher plants and aided phytostabilization. Despite the partial successes in the field, recent knowledge highlights the importance of long-term and large-scale field studies evaluating the stability of the oxide-based amendments in the treated soils and their efficiency in the long-term.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112003818">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Enhanced PCBs sorption on biochars as affected by environmental factors: Humic acid and metal cations ">&nbsp;14.Enhanced PCBs sorption on biochars as affected by environmental factors: Humic acid and metal cations</h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Biochar plays an important role in the behaviors of organic pollutants in the soil environment. The role of humic acid (HA) and metal cations on the adsorption affinity of polychlorinated biphenyls (PCBs) to the biochars in an aqueous medium and an extracted solution from a PCBs-contaminated soil was studied using batch experiments. Biochars were produced with pine needles and wheat straw at 350 °C and 550 °C under anaerobic condition. The results showed that the biochars had high adsorption affinity for PCBs. Pine needle chars adsorbed less nonplanar PCBs than planar ones due to dispersive interactions and separation. Coexistence of HA and metal cations increased PCBs sorption on the biochars accounted for HA adsorption and cation complexation. The results will aid in a better understanding of biochar sorption mechanism of contaminants in the environment.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112003910">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Migration of polybrominated diphenyl ethers in biosolids-amended soil">&nbsp;15.Migration of polybrominated diphenyl ethers in biosolids-amended soil</h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A field investigation was carried out to determine PBDE concentrations over a one-year period in agricultural soils onto which 80 tonnes biosolids/hectare had been applied. The PBDE concentrations increased from 80 to 300 pg/g dry weight basis to 300 × 103–600 × 103 pg/g dw due to biosolids application, and PBDEs migrated downwards to depths of at least 0.85 m. Concentrations decreased non-uniformly with depth. PBDE levels decreased exponentially in the topmost biosolids-amended soils layer, while increasing in the next underlying soil layer over the one-year period. The rate of decrease of total PBDE mass in the top 0.00–0.05 m layer was almost two orders of magnitude greater than the rates of increase in total PBDE mass in the lower layers, indicating that effects such as photodegradation and/or volatilization likely were to have been significant in the surface layer.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112003831">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Integrated monitoring of particle associated transport of PAHs in contrasting catchments ">&nbsp;16.Integrated monitoring of particle associated transport of PAHs in contrasting catchments </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Water quality of rivers depends often on the degree of urbanization and the population density in the catchment. This study shows results of a monitoring campaign of total concentration of polycyclic aromatic hydrocarbons (PAHs) and suspended particles in water samples in adjacent catchments in Southern Germany with similar geology and climate but different degrees of urbanization. Defined linear relationships between total concentrations of PAHs in water and the amount of suspended solids were obtained indicating predominance of particle-facilitated transport. The slopes of these regressions correspond to the average contamination of suspended particles (Csus) and thus comprise a very robust measure of sediment pollution in a river. For the first time, we can show that Csus is distinct in the different catchments and correlates to the degree of urbanization represented by the number of inhabitants per total flux of suspended particles.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S026974911200406X">&nbsp;Read More</a></p>
+                 
+                 
+                 <h3 title="Biofuel components change the ecology of bacterial volatile petroleum hydrocarbon degradation in aerobic sandy soil ">&nbsp;17.Biofuel components change the ecology of bacterial volatile petroleum hydrocarbon degradation in aerobic sandy soil </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  We tested the hypothesis that the biodegradation of volatile petroleum hydrocarbons (VPHs) in aerobic sandy soil is affected by the blending with 10 percent ethanol (E10) or 20 percent biodiesel (B20). When inorganic nutrients were scarce, competition between biofuel and VPH degraders temporarily slowed monoaromatic hydrocarbon degradation. Ethanol had a bigger impact than biodiesel, reflecting the relative ease of ethanol compared to methyl ester biodegradation. Denaturing gradient gel electrophoresis (DGGE) of bacterial 16S rRNA genes revealed that each fuel mixture selected for a distinct bacterial community, each dominated by Pseudomonas spp. Despite lasting impacts on soil bacterial ecology, the overall effects on VHP biodegradation were minor, and average biomass yields were comparable between fuel types, ranging from 0.40 ± 0.16 to 0.51 ± 0.22 g of biomass carbon per gram of fuel carbon degraded. Inorganic nutrient availability had a greater impact on petroleum hydrocarbon biodegradation than fuel composition.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112004496">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Pollution level, inhalation exposure and lung cancer risk of ambient atmospheric polycyclic aromatic hydrocarbons (PAHs) in Taiyuan, China ">&nbsp;18.Pollution level, inhalation exposure and lung cancer risk of ambient atmospheric polycyclic aromatic hydrocarbons (PAHs) in Taiyuan, China </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Passive air samplers were deployed to collect both gas and particulate phase polycyclic aromatic hydrocarbons in Taiyuan between 2009 and 2010. Annual average concentrations of BaP equivalent concentration (B[a]Peq) in background, rural and urban areas were 2.90 ± 0.29, 23.2 ± 30.8 and 27.4 ± 28.1 ng/m3, respectively, with higher concentration in the winter than in other seasons. The median B[a]Peq concentrations of annual inhalation exposure were estimated to be in the range of 103–347 ng/d for all population groups in rural as well as in urban areas. The median values of incremental lifetime cancer risk (ILCR) induced by whole year inhalation exposure for all groups were basically larger than 10−6, with higher values in winter than in other seasons and in urban than in rural area. In the same season and area, the ILCR of adults was larger than other age groups and that of females was a little higher than males.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112004484">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Functioning of metal contaminated garden soil after remediation ">&nbsp;20.Functioning of metal contaminated garden soil after remediation </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  The effect of remediation using three EDTA doses (10, 30, 60 mmol kg−1) on soil functioning was assessed using column experiment and Brassica rapa. Soil washing removed up to 77, 29 and 72% of metals from soil contaminated with 1378, 578 and 8.5 mg kg−1 of Pb, Zn and Cd, respectively. Sequential extraction indicated removal from the carbonate soil fraction. Metal oral-accessibility from the stomach phase was reduced by up to 75 and from the small intestine by up to 79% (Pb). Part of metals (up to 0.8% Cd) was lost due to leaching from columns. Remediation reduced toxic metal soil-root transfer by up to 61% but did not prevent metal accumulation in leaves. The fitness of plants grown on EDTA washed soils (gas exchange, fluorescence) was not compromised. Remediation initially reduced the soil DNA content (up to 29%, 30 mmol kg−1 EDTA) and changed the structure of microbial population.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112004666">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Enhanced desorption of PCB and trace metal elements (Pb and Cu) from contaminated soils by saponin and EDDS mixed solution ">&nbsp;21.Enhanced desorption of PCB and trace metal elements (Pb and Cu) from contaminated soils by saponin and EDDS mixed solution </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  This study investigated the simultaneous desorption of trace metal elements and polychlorinated biphenyl (PCB) from mixed contaminated soil with a novel combination of biosurfactant saponin and biodegradable chelant S,S-ethylenediaminedisuccinic acid (EDDS). Results showed significant promotion and synergy on Pb, Cu and PCB desorption with the mixed solution of saponin and EDDS. The maximal desorption of Pb, Cu and PCB were achieved 99.8%, 85.7% and 45.7%, respectively, by addition of 10 mM EDDS and 3000 mg L−1 saponin. The marked interaction between EDDS and saponin contributed to the synergy performance. The sorption of EDDS and saponin on soil was inhibited by each other. EDDS could enhance the complexation of metals with the saponin micelles and the solubilization capabilities of saponin micelles for PCB. Our study suggests the combination of saponin and EDDS would be a promising alternative for remediation of co-contaminated soils caused by hydrophobic organic compounds (HOCs) and metals.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112004939">&nbsp;Read More</a></p>
+                 
+                 <h3 title="National inventory of alkylphenol ethoxylate compounds in U.S. sewage sludges and chemical fate in outdoor soil mesocosms ">&nbsp;22.National inventory of alkylphenol ethoxylate compounds in U.S. sewage sludges and chemical fate in outdoor soil mesocosms </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We determined the first nationwide inventories of alkylphenol surfactants in U.S. sewage sludges (SS) using samples from the U.S. Environmental Protection Agency's 2001 national SS survey. Additionally, analysis of archived 3-year outdoor mesocosm samples served to determine chemical fates in SS-amended soil. Nonylphenol (NP) was the most abundant analyte (534 ± 192 mg/kg) in SS composites, followed by its mono- and di-ethoxylates (62.1 ± 28 and 59.5 ± 52 mg/kg, respectively). The mean annual load of NP and its ethoxylates in SS was estimated at 2408–7149 metric tonnes, of which 1204–4289 is applied on U.S. land. NP compounds showed observable loss from SS/soil mixtures (1:2), with mean half-lives ranging from 301 to 495 days. Surfactant levels in U.S. SS ten-times in excess of European regulations, substantial releases to U.S. soils, and prolonged half-lives found under field conditions, all argue for the U.S. to follow Europe's move from 20 years ago to regulate these chemicals.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112004903">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Photolytic debromination pathway of polybrominated diphenyl ethers in hexane by sunlight ">&nbsp;23.Photolytic debromination pathway of polybrominated diphenyl ethers in hexane by sunlight </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The objective of this work is to identify the photolytic debromination pathways of polybrominated diphenyl ethers (PBDEs). Thirteen PBDEs (BDEs 209, 208, 207, 206, 196, 183, 154, 153, 100, 99, 85, 47 and 28) in hexane were individually exposed to sunlight for up to 64 h. A total of 180 PBDEs were screened and 74 BDE debromination products were detected. The disappearance rate constant increased exponentially with increasing number of bromines. While no evident difference in debromination preference among ortho, metaand para bromines was found for heavier congeners, the vulnerability rank order was meta ≥ ortho > para for the lighter congeners (≤8 Br). The total molar mass of PBDEs continuously decreased during sunlight exposure, indicating PBDEs were transformed to non-PBDE compounds. A stochastic least squares debromination pathway model was developed to simulate the reactions and determine the yields to extend the results beyond the experimental observations.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112005143">&nbsp;Read More</a></p>
+                 
+                 
+                 <h3 title="Investigation of gold nanoparticles uptake and their tissue level distribution in rice plants by laser ablation-inductively coupled-mass spectrometry ">&nbsp;24.Investigation of gold nanoparticles uptake and their tissue level distribution in rice plants by laser ablation-inductively coupled-mass spectrometry </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The tissue level uptake and spatial distribution of gold nanoparticles (AuNPs) in rice (Oryza sativa L.) roots and shoots under hydroponic conditions was investigated using laser ablation-inductively coupled plasma-mass spectrometry (LA-ICP-MS). Rice plants were hydroponically exposed to positively, neutrally, and negatively charged AuNPs [AuNP1(+), AuNP2(0), AuNP3(−)] with a core diameter of 2 nm. Plants were exposed to AuNPs having 1.6 mg Au/L for 5 days or 0.14 mg Au/L for 3 months to elucidate how the surface charges of the nanoparticles affects their uptake into living plant tissues. The results demonstrate that terminal functional groups greatly affected the AuNP uptake into plant tissues. Au concentration determined by LA-ICP-MS in 5 day treated rice roots followed this order: AuNP1(+) > AuNP2(0) > AuNP3(−) but this order was reversed for rice shoots, indicating preferential translocation of AuNP3(−). Bioimages revealed distributions of mesophyll and vascular AuNP dependent on organ or AuNP concentration.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112005040">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Reducing the bioavailability of PCBs in soil to plant by biochars assessed with triolein-embedded cellulose acetate membrane technique ">&nbsp;25.Reducing the bioavailability of PCBs in soil to plant by biochars assessed with triolein-embedded cellulose acetate membrane technique </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Coupling with triolein-embedded cellulose acetate membrane (TECAM) technique, hydroxypropyl β-cyclodextrins (HPCD) extraction method, and the greenhouse pot experiments, the influences of biochars on polychlorinated biphenyls (PCBs) bioavailability in soil to plant (Brassica chinensis L. and Daucus carota) were investigated. Addition of 2% biochars to soils significantly reduced the uptake of PCBs in plant, especially for di-, tri- and tetra-chlorobiphenyls. PCBs concentrations in the roots of B. chinensis andD. carota were reduced for 61.5–93.7%, and 12.7–62.4%, respectively in the presence of biochars. The kinetic study showed that in the soils amended with/without biochars, PCBs concentrations accumulated in TECAM, as well as in the HPCD extraction solution, followed significant linear relationships with those in plant roots. Application of biochars to soil is a potentially promising method to reduce PCBs bioavailability whereas TECAM technique can be a useful tool to predict the bioavailability of PCBs in soil.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112005283">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Occurrence of chlorinated paraffins in house dust samples from Bavaria, Germany ">&nbsp;26.Occurrence of chlorinated paraffins in house dust samples from Bavaria, Germany </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Levels and distribution of chlorinated paraffins were studied in randomly taken house dust samples (<63 μm) from the greater area of Munich, Germany. Quantification of short- (SCCPs, C10–C13) and medium-chain chlorinated paraffins (MCCPs, C14–C16) were performed using gas chromatography electron capture negative ion mass spectrometry (GC–ECNI–MS). Concentrations of MCCPs in private household samples varied between 9 μg/g and 892 μg/g, and exceeded levels of SCCPs, which were in the range of 4–27 μg/g. Two dust samples from a public building contained up to 2050 μg/g SCCPs but no MCCPs. Among MCCPs, chlorinated tetradecanes were major components with a proportion of almost 50%. Among SCCPs, chlorinated dodecanes were usually present at higher concentrations than the congeners of any C10, C11, and C13 chains. The results indicate that particularly MCCPs may be present in relatively high concentrations in house dusts.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112005362">&nbsp;Read More</a></p>
+                 
+                 
+                 <h3 title="Personal exposure to benzene of selected population groups and impact of commuting modes in Ho Chi Minh, Vietnam ">&nbsp;27.Personal exposure to benzene of selected population groups and impact of commuting modes in Ho Chi Minh, Vietnam </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Personal exposure to benzene of selected population groups, and impacts of traffic on commuters in Ho Chi Minh City were investigated. The study was carried out in June, July and November 2010. The preliminary data showed that on average, personal exposure to benzene for non-occupational people in Ho Chi Minh is ∼18 μg/m3 and most of the exposure is due to commuting. Benzene exposure during travelling by bus, taxi and motorcycle is, respectively, 22–30, 22–39 and 185–240 μg/m3. Motorcycle–taxi drivers, petrol filling employees and street vendors suffer high daily exposures at 116, 52, 32 μg/m3, respectively. Further measurements are needed for a better risk assessment and finding effective measures to reduce exposure.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112005428">&nbsp;Read More</a></p>
+                 
+                 
+                 <h3 title="Federal retail hazardous waste reform ">&nbsp;28.Federal retail hazardous waste reform </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Federal (and state) laws and regulations, which were initially intended to address the management and disposal of industrial hazardous waste, are often an awkward fit when applied to the management and disposal of retail “hazardous waste.” For example, many common retail products sold for household use are regulated as hazardous waste when discarded by retailers even though these same products would not be so regulated when discarded by individual consumers. Accordingly, retailers are left to determine (and train their employees on how to determine) when a product should be treated as a “waste,” whether a particular waste must be handled as “hazardous waste,” and how to properly handle such hazardous waste pursuant to federal and state laws and regulations. The U.S. Environmental Protection Agency (“EPA”) is currently undertaking several regulatory reform efforts that may lead to hazardous waste regulatory reforms intended to alleviate some of the awkward application of the federal hazardous waste regulatory scheme in the retail context.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pursuant to Executive Order 13563 issued in January 2011, federal agencies are required to review existing regulations to determine “whether any such regulations should be modified, streamlined, expanded, or repealed so as to make the agency’s regulatory program more effective or less burdensome in achieving the regulatory objectives.” Federal agencies subsequently produced “retrospective review plans” outlining potential areas of regulatory reform. With industry support, the August 2011 retrospective review plan published by EPA included, among other proposals, the review by EPA of hazardous waste requirements for retail products.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Among the first efforts currently underway to “streamline” the impact of environmental regulations on retailers is the development of proposed standards for managing and disposing of pharmaceuticals that are considered hazardous waste when discarded by “healthcare-related” facilities, including, presumably, retail pharmacies. As early as 2008, EPA proposed a rule that would have regulated hazardous waste pharmaceuticals under the Universal Waste Program, but EPA never finalized the prior proposed rule, citing concerns raised by the public comment generated by the proposal. EPA received an unprecedented number of comments on the prior proposed rule. The hazardous waste pharmaceuticals standards currently under development are expected to deviate significantly from the prior proposal. EPA has been tight-lipped on the specific components of the new proposed rule, but it is anticipated that it will address several issues regularly raised by the regulated community, such as how empty containers are to be treated and episodic large quantity generator status due to occasional generation of more than 1 kg/month of pharmaceuticals that are “acutely hazardous waste.” EPA currently expects a new proposed rule to be published in March 2014.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another effort EPA is undertaking includes an analysis and review of comments and other information from retailers and other sources to better understand retail-specific areas of concern with respect to federal hazardous waste requirements. EPA is preparing a Notice of Data Availability (“NODA”), which will provide a summary of the information described above. EPA’s expected NODA publication date has been repeatedly pushed back, but subject to federal budget activities, EPA contacts suggest that the NODA will be published shortly. The NODA will request comments and additional information from stakeholders and the public, as well as proposals to address the retail-specific areas of concern with respect to federal hazardous waste requirements. Following the comment period, which typically lasts 60–90 days but could be extended even further, EPA may—but has not yet committed to—continue the rulemaking process by proposing rule changes, which would not be expected to yield actual regulatory changes for years to come. In the interim, EPA has indicated that it may consider issuing interpretive guidance of existing regulations, although we are unaware of any interpretive guidance efforts currently underway with respect to retail hazardous waste issues.</p>
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A third effort currently underway is the development of proposed changes to the hazardous waste requirements applicable to generators of hazardous waste, which would affect retailers and the broader regulated community. The hazardous waste generator changes currently under development are expected to make some largely non substantive changes, such as reorganizing the applicable regulations. Other changes are expected to be more substantive, including to “address situations where a generator has [an] episodic event resulting in a temporary change in regulatory status.” Many retailers may take a particular interest in the precise scheme proposed for episodic generators due to the vagaries of retail operations, seasonal variations in products, product recalls, and other retail-specific circumstances that may lead to temporary, larger-than-normal hazardous waste generation. Proposed changes to the hazardous waste generator rules are currently planned to be published in March 2014.</p>
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Except with respect to the possibility of EPA issuing interpretive guidance of existing regulations in connection with any of the hazardous waste regulatory reform efforts described above, these three regulatory reform efforts all appear to be far from yielding immediate practical benefits. However, each of these efforts are at critical phases, and members of the regulated community have an opportunity to shape the ultimate outcomes through the public comment process. Furthermore, the sequester has caused a 5% reduction to EPA’s current fiscal year budget. These budgetary constraints, which are expected to continue at least into the next fiscal year, will undoubtedly hamper the rate at which EPA is able to progress the rulemaking process. Accordingly, the priority given to these reform efforts by EPA, and whether retail hazardous waste reforms even continue beyond the NODA to the proposed rulemaking stage, may depend in part on level and type of feedback received during the upcoming comment periods for each of the three regulatory reform efforts.</p>
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ted Wolff is a partner in Manatt, Phelps & Phillips’ New York office and focuses his environmental practice on litigation and transactional work. He regularly counsels clients on compliance with environmental laws, including those that regulate the handling, storage, treatment and disposal of hazardous substances and waste. Mr. Wolff can be reached at (212) 790-4575 or twolff@manatt.com.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.environmentalleader.com/2013/09/30/federal-retail-hazardous-waste-reform">&nbsp;Read More</a></p>
+                
+                 <h3 title="Toxic waste oversight slow, disorganized, investigation finds ">&nbsp;29.Toxic waste oversight slow, disorganized, investigation finds  </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A quarter of the 118 major hazardous waste facilities in California are operating on expired permits that may not meet current standards, just one example discovered by the Los Angeles Times in an investigation that uncovered a gross lack of oversight by the state’s Department of Toxic Substances Control. The newspaper reviewed departmental inspection reports, internal memos, court records and local fire and health department documents as well as interviewed residents, regulators and business owners as part of its investigation. The DTSC, a department of the California Environmental Protection Agency, licenses 117 facilities to manage hazardous waste. It regulates about 900 registered businesses that transport it, oversees the cleanup of some 1,000 hazardous substance release sites and monitors the long-term maintenance of about 200 sites where cleanup is complete.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The review found a systematic problem with enforcement of regulations including cases of hundreds of companies walking away from contaminated sites, leaving taxpayers to pay for cleanup costs from hazardous waste. The DTSC admits that it has not tried to collect $140 million in cleanup costs from 1987 through last year. The department’s use of financial penalties also has declined, the newspaper found. Companies in California agreed to pay fines totaling $2.45 million a year on average between 2008 through 2012, about half the average of the previous five years. The problems stem from years of staff cuts and turnover at management levels, inconsistent standards and slapdash enforcement, according to the Los Angeles Times. Environmental activists have been critical of the state agency for years. A report released in early 2013 from consumer watchdog group Golden Wasteland, found the DTSC cuts repeated deals out of court with polluters, levies ineffective fines and fails to develop and refer cases for prosecution. The report , as well as another one by NBC, prompted California lawmakers to call for an investigation. State Sen. Kevin De Leon, who chairs the Senate Appropriations Committee, sent a letter to DTSC director Debbie Raphael saying he had asked the Office of Oversight and Outcomes to investigate the allegations.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.environmentalleader.com/2013/12/30/toxic-waste-oversight-slow-disorganized-investigation-finds">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Ship recycling fund approved by European Parliament ">&nbsp;30.Ship recycling fund approved by European Parliament </h3>
+                
+                <p>"The European Parliament’s environment committee voted to create a Europe-wide ship recycling fund, in response to the European Commission’s proposed rules to ensure that European ships are only recycled in facilities that are safe for workers and environmentally sound"</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More than 1000 large old commercial ships, such as tankers and container vessels, are recycled for their scrap metal every year, but many European ships end up in substandard facilities on the tidal beaches of South Asia. These facilities mostly lack the environmental protection and safety measures needed to manage the hazardous materials — such as asbestos, polychlorinated biphenyls (PCBs), tributyl tin and oil sludge — contained in end-of-life ships. This leads to high accident rates and health risks for workers and extensive environmental pollution, according to the European Commission. In 2009, more than 90 % of European ships were dismantled in ship recycling facilities in non-OECD countries, some of which were substandard. The quantity of European end-of-life ships is significant, since 17 % of world tonnage is registered under an EU flag. This makes it a priority for the EU to improve ship dismantling practices worldwide. Although the ship recycling sector has improved its practices, many facilities continue to operate under conditions that are dangerous and damaging. This proposal aims to ensure that old ships are recycled in a way that respects the health of workers as well as the environment. It is a clear signal to invest urgently in upgrading recycling facilities. The new rules, which will take the form of a Regulation, propose a system of survey, certification and authorization for large commercial seagoing vessels that fly the flag of an EU Member State, covering their whole life cycle from construction to operation and recycling.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ship recycling facilities will have to meet a set of environmental and safety requirements in order to be included on a list of authorized facilities worldwide. European ships will be allowed to be recycled only in facilities on the list. Some of the requirements to be met by the ship recycling facilities are stricter than those foreseen by the Hong Kong Convention. This will ensure better traceability for European ships, and will guarantee that the waste resulting from dismantling (and any hazardous materials it contains) is managed in an environmentally sound way. The proposal will see a recycling fund be set up, which would be financed by a recycling levy charged for any port call by EU or non-EU ships. Owners of EU ships that are sold for recycling and that end up sent to a beach or facility not on the EU list would face penalties. The NGO Shipbreaking Platform, a global coalition of 18 environmental, human rights and labor rights organizations promoting clean and safe ship recycling, issued a press release calling on the European Parliament and the Council to include a financial mechanism in order to turn the Commission proposal into an effective instrument to promote responsible ship recycling and to level the playing field globally. Every year, more European end-of-life ships containing hazardous materials are sent to India, Bangladesh and Pakistan. Such practices are unacceptable and Europe is in the driver’s seat to put a stop to this on-going human rights and environmental disaster. Only a financial mechanism enforced in EU ports can properly internalize costs and close loopholes, which have allowed ships until now to escape legislation and accountability.</p>
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.environmentalleader.com/2013/04/03/ship-recycling-fund-approved-by-european-parliament/">&nbsp;Read More</a></p>
+                
+                
+                <h3 title="Persistent organic pollutants and methoxylated polybrominated diphenyl ethers in different tissues of white-tailed eagles (Haliaeetus albicilla) from West Greenland ">&nbsp;31.Persistent organic pollutants and methoxylated polybrominated diphenyl ethers in different tissues of white-tailed eagles (Haliaeetus albicilla) from West Greenland </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We investigated polychlorinated biphenyls (PCBs), organochlorine pesticides (e.g. dichlorodiphenyltrichloroethane (DDT)), polybrominated diphenyl ethers (PBDEs) and methoxylated PBDEs (MeO-PBDEs), in six matrices (muscle, liver, kidney, adipose, blood, preen oil) of 17 white-tailed eagles from West Greenland sampled between 1997 and 2009. High inter-individual variation in contamination was found (PCBs: 0.49–1500 μg/g lipid weight (lw), DDTs: 0.23–910 μg/g lw, PBDEs: 0.01–24 μg/g lw, MeO-PBDEs: 0.001–0.59 μg/g lw), mostly due to age-related differences and not to temporal trends. One adult female (age > 5 years) displayed PCB levels up to 1500 μg/g lw in liver, which is the highest concentration ever reported in Arctic wildlife. Muscle generally contained the highest median levels, while adipose tissue displayed the lowest median levels on a lipid basis. No significant differences were found among tissues for MeO-PBDEs. Remarkably, we found distinct correlations (0.62 ≤ r ≤ 0.98; <0.0001 ≤ p ≤ 0.17) between levels of MeO-PBDEs and PBDEs, suggesting similar bioaccumulation pathways of PBDEs and MeO-PBDEs in white-tailed eagles.</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749112005489">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Mercury and methylmercury bioaccumulation by polychaete worms is governed by both feeding ecology and mercury bioavailability in coastal mudflats">&nbsp;32.Mercury and methylmercury bioaccumulation by polychaete worms is governed by both feeding ecology and mercury bioavailability in coastal mudflats </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Polychaete worms are abundant in many mudflats but their importance to coastal food web Hg biomagnification is not known. We sampled sediments and polychaete worms from mudflats in the Bay of Fundy to investigate the bioaccumulation of mercury (Hg) and methylmercury (MeHg) in the coastal invertebrate food web. Hg concentrations in the sediments were low (<20 μg kg−1). Labile Hg (methanol/KOH sediment extraction) in surface sediments (0–1 cm) was positively correlated with Hg bioaccumulation by surface sediment-ingesting polychaetes but, surprisingly, there was a negative correlation between δ15N (i.e. trophic level) and THg bioaccumulation factors in polychaete worms. Worms feeding on deeper sediments contained the greatest MeHg concentrations (69.6 μg kg−1). Polychaetes are an important vector for Hg biomagnification to the coastal avian food web. This research demonstrates that feeding depth and method of feeding are more important than trophic position or sediment Hg concentrations for predicting Hg bioaccumulation.</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749113000237">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Supercritical fluid extraction of persistent organic pollutants from natural and artificial soils and comparison with bioaccumulation in earthworms">&nbsp;33.Supercritical fluid extraction of persistent organic pollutants from natural and artificial soils and comparison with bioaccumulation in earthworms </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Selective supercritical fluid extraction (SSFE) was used as a measurement of compound chemical accessibility and as a predictor of compound bioavailability from three natural soils and artificial analogues prepared to have comparable total organic carbon content. Soils spiked with phenanthrene, pyrene, PCB 153, lindane, and p,p′-DDT were aged for 0, 14, 28, or 56 days and then selectively extracted by supercritical fluid extraction. Compounds exhibited decreasing extractability with increasing pollutant–soil contact time and increasing total organic carbon content in tested soils. However, the different extractability of compounds from artificial and natural pairs having comparable TOC indicates the limitations of using TOC as an extrapolation basis between various soils. The comparison of extractability with bioaccumulation by earthworms (Eisenia fetida) previously published by Vlčková and Hofman (2012) showed that only for PAHs it was possible to predict their bioaccumulation by means of selective SFE.</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749113000110">&nbsp;Read More</a></p>
+                
+                
+                
+                 
+                 <h3 title="Levels and distribution of methoxylated and hydroxylated polybrominated diphenyl ethers in plant and soil samples surrounding a seafood processing factory and a seafood market ">&nbsp;34.Levels and distribution of methoxylated and hydroxylated polybrominated diphenyl ethers in plant and soil samples surrounding a seafood processing factory and a seafood market </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Polybrominated diphenyl ethers (PBDEs) along with hydroxylated polybrominated diphenyl ethers (OH-PBDEs) and methoxylated polybrominated diphenyl ethers (MeO-PBDEs) were found in plant and soil samples collected surrounding a seafood processing factory and a seafood market in China. The profiles of MeO-PBDE congeners were different between seafood processing factory and seafood market. The detection frequency and concentration of 6-OH-BDE-47 were lower than that of MeO-PBDEs. Near seafood processing factory, a decreasing trend of analyte concentrations in plants was found downstream the river where factory wastewater was discharged. Concentrations of ΣMeO-PBDEs in plant and soil samples showed difference as root > soil > leaf. However, at seafood market, the concentrations of ΣMeO-PBDEs were much higher in leaves than those in soil. The concentration of ΣMeO-PBDEs in leaves showed a remarkable difference between Calystegia soldanella (Linn.) R. Br. and Setaira viridis (L.) Beauv.</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749113000377">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Toxic effects of copper ion in zebrafish in the joint presence of CdTe QDs ">&nbsp;35.Toxic effects of copper ion in zebrafish in the joint presence of CdTe QDs </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quantum dots (QDs) have strong adsorption capacity; therefore, their potential toxicity of the facilitated transport of other trace toxic pollutants when they co-exist to aquatic organisms has become a hot research topic. The lab study was performed to determine the developmental toxicities to the zebrafish after exposed to the combined pollution of Cadmium-telluride (CdTe) QDs and copper ion (Cu2+) compared to the single exposure. Our findings for the first time revealed that: 1) CdTe QDs facilitated the accumulation of Cu2+ in zebrafish, 2) the higher mortality, lower hatch rate, and more malformations can be clearly observed, 3) the diverse vascular hyperplasia, turbulence, and bifurcation of the exposed FLI-1 transgenic zebrafish larvae appeared together, 4) the synergistic effects played more important role during joint exposure. These observations provide a basic understanding of CdTe QDs and Cu2+ joint toxicity to aquatic organisms.</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749113000547">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Transformation of four silver/silver chloride nanoparticles during anaerobic treatment of wastewater and post-processing of sewage sludge">&nbsp;36.Transformation of four silver/silver chloride nanoparticles during anaerobic treatment of wastewater and post-processing of sewage sludge</h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The increasing use of silver (Ag) nanoparticles [containing either elemental Ag (Ag-NPs) or AgCl (AgCl-NPs)] in commercial products such as textiles will most likely result in these materials reaching wastewater treatment plants. Previous studies indicate that a conversion of Ag-NPs to Ag2S is to be expected during wastewater transport/treatment. However, the influence of surface functionality, the nature of the core structure and the effect of post-processing on Ag speciation in sewage sludge/biosolids has not been investigated. This study aims at closing these knowledge gaps using bench scale anaerobic digesters spiked with Ag nitrate, three different types of Ag-NPs, and AgCl-NPs at environmentally realistic concentrations. The results indicate that neither surface functionality nor the different compositions of the NP prevented the formation of Ag2S. Silver sulfides, unlike the sulfides of other metals present in sewage sludge, were stable over a six month period simulating composting/stockpiling.</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749113000444">&nbsp;Read More</a></p>
+                 
+                 <h3 title="An ecotoxicological screening tool to prioritise acid mine drainage impacted streams for future restoration ">&nbsp;37.An ecotoxicological screening tool to prioritise acid mine drainage impacted streams for future restoration </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Streams impacted by acid mine drainage (AMD) typically present water exhibiting low pH and high metal concentrations. These factors result in the environmental degradation of watercourses. The objective of this study was to develop and evaluate an ecotoxicological screening tool (EST) to prioritise future remediation of streams impacted by AMD. The Bloubank stream drainage system in South Africa, served as study area for this purpose. In the initial EST development phase physicochemical variables were assessed while in the second phase, epilithic filamentous green algae biomass (chl-a mg m−2), diatoms and filamentous green algae community structures were employed as bioindicators as well as Daphnia magna toxicity assays. Using a weight of evidence approach, the first three sites receiving AMD were critically and seriously modified, followed by site 4 that was modified. Sites 1–3 with EST scores ≤70% were assessed as priority candidates for future restoration.</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749113000250">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Distribution and speciation of metals (Cu, Zn, Cd, and Pb) in agricultural and non-agricultural soils near a stream upriver from the Pearl River, China ">&nbsp;38.Distribution and speciation of metals (Cu, Zn, Cd, and Pb) in agricultural and non-agricultural soils near a stream upriver from the Pearl River, China </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The distribution and chemical speciation of typical metals (Cu, Zn, Cd and Pb) in agricultural and non-agricultural soils were investigated in the area of Nanpan River, upstream of the Pearl River. The investigated four metals showed higher concentrations in agricultural soils than in non-agricultural soils, and the site located in factory district contained metals much higher than the other sampling sites. These observations suggested that human activities, such as water irrigation, fertilizer and pesticide applications might have a major impact on the distribution of metals. Metal speciation analysis presented that Cu, Zn and Cd were dominated by the residual fraction, while Pb was dominated by the reducible fraction. Because of the low mobility of the metals in the investigated area, no remarkable difference could be observed between upstream and downstream separated by the factory site.</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749113000596">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Hydroxylated PBDEs and brominated phenolic compounds in particulate matters emitted during recycling of waste printed circuit boards in a typical e-waste workshop of South China">&nbsp;39.Hydroxylated PBDEs and brominated phenolic compounds in particulate matters emitted during recycling of waste printed circuit boards in a typical e-waste workshop of South China </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The hydroxylated PBDEs (OH-PBDEs) and brominated phenolic compounds in aerosol samples from a printed circuit boards recycling workshop were characterized. The results show that OH-PBDEs, which are naturally occurring compounds or metabolism of PBDEs, could also be emitted from the e-waste recycling. Five OH-PBDEs, several unidentified mono-OH-PBDE and di-OH-PBDE congeners were detected. The concentration of ∑OH-PBDEs was 1.74–4.22 ng m−3 (average of 2.66 ng m−3), with 6-OH-BDE-47 (0.329 ng m−3) as the most abundant identified congener. The total concentration of di- to tri-brominated phenols (BPs) was 18.8–32.0 ng m−3 (average of 26.3 ng m−3) with 2,4,6-triBP as the most abundant congener. These findings suggest that the recycling of printed circuit boards represent a strong source of OH-PBDEs and BPs to the atmosphere. Additionally, some phenolic compounds including brominated bisphenol A, hydroxylated polybrominated biphenyl species and etc. were also identified.</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749113000493">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Experimental increase in availability of a PAH complex organic contamination from an aged contaminated soil: Consequences on biodegradation ">&nbsp;40.Experimental increase in availability of a PAH complex organic contamination from an aged contaminated soil: Consequences on biodegradation  </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Although high PAH content and detection of PAH-degraders, the PAH biodegradation is limited in aged-contaminated soils due to low PAH availability (i.e., 1%). Here, we tried to experimentally increase the soil PAH availability by keeping both soil properties and contamination composition. Organic extract was first removed and then re-incorporated in the raw soil as fresh contaminants. Though drastic, this procedure only allowed a 6-time increase in the PAH availability suggesting that the organic constituents more than ageing were responsible for low availability. In the re-contaminated soil, the mineralization rate was twice more important, the proportion of 5–6 cycles PAH was higher indicating a preferential degradation of lower molecular weight PAH. The extraction treatment induced bacterial and fungal community structures modifications, Pseudomonas and Fusarium solani species were favoured, and the relative quantity of fungi increased. In re-contaminated soil the percentage of PAH-dioxygenase gene increased, with 10 times more Gram negative representatives.</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749113000584">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Atmospheric concentrations and potential sources of PCBs, PBDEs, and pesticides to Acadia National Park ">&nbsp;41.Atmospheric concentrations and potential sources of PCBs, PBDEs, and pesticides to Acadia National Park </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This study assessed concentrations and investigated potential source regions for PCBs, PBDEs, and organochlorine pesticides in Acadia National Park, Maine, USA. Back-trajectories and potential source contribution function (PSCF) values were used to map potential source areas for total-PCBs, BDE-47, and 10 organochlorine pesticides. The constructed PSCF maps showed that ANP receives high pollutant concentrations in air masses that travel along four main pathways: (1) from the SW along the eastern Atlantic seaboard, (2) from the WSW over St. Louis, and Columbus regions, (3) from the west over Chicago, and Toronto regions, and (4) from WNW to NNW over the Great Lakes, and Quebec regions. Transport of all studied pollutants were equally distributed between the first three pathways, with only minor contributions from the last pathway. This study concludes that the high-pollutant concentrations arriving at ANP do not exclusively originate from the major urban centers along the eastern Atlantic seaboard.
+</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S026974911300081X">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Non-destructive techniques for biomonitoring of spatial, temporal, and demographic patterns of mercury bioaccumulation and maternal transfer in turtles ">&nbsp;42.Non-destructive techniques for biomonitoring of spatial, temporal, and demographic patterns of mercury bioaccumulation and maternal transfer in turtles </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mercury (Hg) is a globally ubiquitous pollutant that has received much attention due to its toxicity to humans and wildlife. The development of non-destructive sampling techniques is a critical step for sustainable monitoring of Hg accumulation. We evaluated the efficacy of non-destructive sampling techniques and assessed spatial, temporal, and demographic factors that influence Hg bioaccumulation in turtles. We collected muscle, blood, nail, and eggs from snapping turtles (Chelydra serpentina) inhabiting an Hg contaminated river. As predicted, all Hg tissue concentrations strongly and positively correlated with each other. Additionally, we validated our mathematical models against two additional Hg contaminated locations and found that tissue relationships developed from the validation sites did not significantly differ from those generated from the original sampling site. The models provided herein will be useful for a wide array of systems where biomonitoring of Hg in turtles needs to be accomplished in a conservation-minded fashion.
+</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749113000948">&nbsp;Read More</a></p>
+                 
+                 <h3 title="Toxicity testing of dispersed oil requires adherence to standardized protocols to assess potential real world effects ">&nbsp;43.Toxicity testing of dispersed oil requires adherence to standardized protocols to assess potential real world effects </h3>
+                
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recently, several researchers have attempted to address Deepwater Horizon incident environmental fate and effects issues using laboratory testing and extrapolation procedures that are not fully reliable measures for environmental assessments. The 2013 Rico-Martínez et al. publication utilized laboratory testing approaches that severely limit our ability to reliably extrapolate such results to meaningful real-world assessments. The authors did not adopt key methodological elements of oil and dispersed oil toxicity standards. Further, they drew real-world conclusions from static exposure tests without reporting actual exposure concentrations. Without this information, it is not possible to compare their results to other research or real spill events that measured and reported exposure concentrations. The 1990s' Chemical Response to Oil Spills: Ecological Effects Research Forum program was established to standardize and conduct exposure characterization in oil and dispersed oil aquatic toxicity testing (Aurand and Coelho, 2005). This commentary raises awareness regarding the necessity of standardized test protocols.
+</p>
+                
+                
+                 <p>Source Link:<a class="read_more" target="_blank" href="http://www.sciencedirect.com/science/article/pii/S0269749113000705">&nbsp;Read More</a></p>
+                
+                
+                
+                
+                <!--Main Content Area End-->
+                </div>
+            	<!-- End None Split Section -->
+                <div class="clear"></div>
+                <hr />
+        
+				
+                <div class="pagination">
+                    
+                        <ul>
+                            <li><a href="abstract_servicing.html" title="Start" class="normal">Start</a></li>
+                            <li><a href="#" title="Previous" class="normal">Prev</a></li>
+                            
+                            <li><a href="abstract_servicing.html" title="1" class="normalactive">1</a></li>
+                            <li><a href="abstract_servicing_2.html" title="2" class="normal">2</a></li>
+                            <li><a href="abstract_servicing_3.html" title="3" class="normal">3</a></li>
+                            <li><a href="abstract_servicing_4.html" title="4" class="normal">4</a></li>
+                            <li><a href="abstract_servicing_5.html" title="5" class="normal">5</a></li>
+                            
+                            <li><a href="abstract_servicing_2.html" title="Next" class="normal">Next</a></li>
+                            <li><a href="abstract_servicing_5.html" title="Last" class="normal">Last</a></li>
+                        </ul>
+                	
+           		</div>        
+        
+        
+			<!------------------Back Button-------------------------------------->
+                <div align="center">
+                
+                    <a class="smallsmoothrectange whitebutton" href="index.html">Back</a>
+                
+                </div>
+            <!------------------End Button-------------------------->
+                
+                
+                
+                
+            <span class="box-arrow"></span>
+        
+        
+    
+    </div>
+    <!-- End Main Body Wrap -->
+
+</div>
+<!-- Start Footer -->
+<div id="footer">
+	<!-- Start Footer Top -->
+	<div id="footertop">
+    
+    	<div class="footerwrap">
+    		<!-- Start Latest Tweets -->
+            <div id="latest-tweets">
+                <div id="twittertitle">Other Links</div>
+                <div id="usefulbody">
+                	<ul>
+                    	<li><a href="query.html" title="Online Query">Online Query</a></li>
+                        <li><a href="experts.html" title="Experts">Experts</a></li>
+                        <!--  <li><a href="feedback.html" title="Feedback">Feedback</a></li>-->
+                        <li><a href="faqs.html" title="FAQ's">FAQ's</a></li>
+                        <!-- <li><a href="site_map.html" title="Site Map">Site Map</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <!-- End Latest Tweets -->
+    		<!-- Start Useful Links -->
+            <div id="useful_links">
+                <div id="usefultitle">Related Links</div>
+                <div id="usefulbody">
+                
+                	<ul>
+                    
+                    	<li><a target="_blank" href="http://www.moef.nic.in/" title="Ministry of Environment, Forests & Climate Change">Ministry of Environment, Forests & Climate Change</a></li>
+                        <li><a target="_blank" href="http://cpcb.nic.in/" title="Central Pollution Control Board"> Central Pollution Control Board</a></li>
+                        <li><a target="_blank" href="http://www.epa.gov/" title=""> US EPA</a></li>
+                        
+                    
+                    </ul>
+                
+                </div>
+            </div>
+            <!-- End Useful Links -->
+    		<!-- Start Testimonials -->
+            <div id="latest-testimonial">
+                <div id="testimonialtitle">Latest Testimonials</div>
+                <div id="testimonialbody">
+                	<!-- Starting simple slider -->
+                    <div id="simpleslider">
+                            <!-- Slide 1 -->
+                            <div class="current">
+                                <h6>Example Title 1</h6>
+                                <p>test example 1 test example 1 test example 1 test example 1 test example 1 test example 1 test example 1 test example 1 test example 1 test example 1 </p>
+                            </div>
+                            <!-- End Slide 1 -->
+                            <!-- Slide 2 -->
+                            <div>
+                               <h6>Example Title 2</h6>
+                                <p>test example 2 test example 2 test example 2 test example 2 test example 2 test example 2 test example 2 test example 2 test example 2 test example 2 </p>
+                            </div>
+                            <!-- End Slide 2 -->
+                            <!-- Slide 3 -->
+                            <div>
+                                <h6>Example Title 3</h6>
+                                <p>test example 3 test example 3 test example 3 test example 3 test example 3 test example 3 test example 3 test example 3 test example 3 test example 3 </p>
+                            </div>
+                            <!-- End Slide 3 -->
+                            
+                    </div>
+                    <!-- Ending simple slider -->
+                	<div class="speachlower"></div>
+                </div>
+            </div>
+            <!-- End Latest Testimonials -->
+    	</div>
+    
+	</div>
+	<!-- End Footer Top -->
+    <div class="clear"></div>
+    <!-- Start Footer Bottom -->
+    <div id="footerbottom">
+    
+    	<div class="footerwrap">
+        
+        	<!-- Start Copyright Div -->
+            <div id="copyright">
+            <img src="images/india_gov_icon17.png" /><img src="images/nic1.jpg" />
+            </div>
+
+            <!-- Start Social area -->
+            <div class="socialfooter">
+               	<p class="fotter-titles">
+                	<a href="privacy_policy.html" >Privacy Policy </a>| <a href="copyrigt_policy.html" >Copyright Policy </a>| <a href="term_&_conditions.html" >Terms & Conditions </a>|<a href="hyperlinking_policy.html" >Hyperlinking Policy</a>|<a href="help.html" > Help</a>|<a href="disclaimer.html" > Disclaimer</a>
+            	</p>
+            </div>
+            <!-- End Socialarea -->
+        
+        </div>
+    
+    </div>
+    <!-- End Footer Bottom -->
+</div>
+<!-- End Footer -->
+<!-- Start Scroll To Top Div -->
+<div id="scrolltab"></div>
+<!-- End Scroll To Top Div -->
+</body>
+</html>
